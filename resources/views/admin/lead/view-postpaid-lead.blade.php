@@ -1,0 +1,170 @@
+
+@extends('layouts/contentLayoutMaster')
+
+@section('title', 'VOCUS LEADS')
+
+@section('vendor-style')
+  {{-- vendor css files --}}
+  <link rel="stylesheet" href="{{ asset(mix('vendors/css/tables/datatable/dataTables.bootstrap5.min.css')) }}">
+  <link rel="stylesheet" href="{{ asset(mix('vendors/css/tables/datatable/responsive.bootstrap5.min.css')) }}">
+  <link rel="stylesheet" href="{{ asset(mix('vendors/css/tables/datatable/buttons.bootstrap5.min.css')) }}">
+  <link rel="stylesheet" href="{{ asset(mix('vendors/css/tables/datatable/rowGroup.bootstrap5.min.css')) }}">
+  <link rel="stylesheet" href="{{ asset(mix('vendors/css/pickers/flatpickr/flatpickr.min.css')) }}">
+@endsection
+
+@section('content')
+
+<!-- Basic table -->
+<section id="basic-datatable">
+  <div class="row">
+    <div class="col-12">
+      <div class="card container table-responsive">
+        <table class="table table-striped table-bordered zero-configuration" id="pdf">
+        {{-- <table class="datatables-basic table" id="pdf"> --}}
+          <thead>
+            <tr>
+              <th>id</th>
+              <th>Lead #</th>
+              <th>Name</th>
+              <th>Product Type</th>
+              <th>Customer Number</th>
+              <th>Plan</th>
+              <th>Status</th>
+              <th>Created At</th>
+                    <th>Activation Date</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            @foreach ($data as $item)
+                <tr>
+                    <td>{{$item->id}}</td>
+                    <td>{{$item->lead_no}}</td>
+                    <td>{{$item->customer_name}}</td>
+                    <td>{{$item->lead_type}}</td>
+                    <td>{{$item->customer_number}}</td>
+                    <td>{{$item->plan_name}}</td>
+                                        <td>{{$item->created_at}}</td>
+                    <td>{{$item->updated_at}}</td>
+                    <td>{{$item->status_name}}</td>
+
+                    <td>
+                            @role('Verification')
+                            <a href="{{route('verification.lead',$item->id)}}" class="item-edit"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-edit font-small-4"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"></path></svg></a>
+                            @endrole
+                            @role('Sale|Admin|MainAdmin|Manager|TeamLeader')
+                            <a href="{{route('view.lead',$item->id)}}" class="item-edit">
+                                <i data-feather='eye'></i>
+                            </a>
+                            @if($item->status == '1.19')
+                            <a href="{{route('edit.lead',$item->id)}}" class="item-edit"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-edit font-small-4"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"></path></svg></a>
+                            @endif
+                            @endrole
+                    </td>
+                </tr>
+            @endforeach
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+  <!-- Modal to add new record -->
+  <div class="modal modal-slide-in fade" id="modals-slide-in">
+    <div class="modal-dialog sidebar-sm">
+      <form class="add-new-record modal-content pt-0">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">×</button>
+        <div class="modal-header mb-1">
+          <h5 class="modal-title" id="exampleModalLabel">New Record</h5>
+        </div>
+        <div class="modal-body flex-grow-1">
+          <div class="mb-1">
+            <label class="form-label" for="basic-icon-default-fullname">Full Name</label>
+            <input
+              type="text"
+              class="form-control dt-full-name"
+              id="basic-icon-default-fullname"
+              placeholder="John Doe"
+              aria-label="John Doe"
+            />
+          </div>
+          <div class="mb-1">
+            <label class="form-label" for="basic-icon-default-post">Customer #</label>
+            <input
+              type="text"
+              id="basic-icon-default-post"
+              class="form-control dt-post"
+              placeholder="Web Developer"
+              aria-label="Web Developer"
+            />
+          </div>
+          <div class="mb-1">
+            <label class="form-label" for="basic-icon-default-email">Emirate</label>
+            <input
+              type="text"
+              id="basic-icon-default-email"
+              class="form-control dt-email"
+              placeholder="john.doe@example.com"
+              aria-label="john.doe@example.com"
+            />
+            <small class="form-text"> You can use letters, numbers & periods </small>
+          </div>
+          <div class="mb-1">
+            <label class="form-label" for="basic-icon-default-date">Joining Date</label>
+            <input
+              type="text"
+              class="form-control dt-date"
+              id="basic-icon-default-date"
+              placeholder="MM/DD/YYYY"
+              aria-label="MM/DD/YYYY"
+            />
+          </div>
+          <div class="mb-4">
+            <label class="form-label" for="basic-icon-default-salary">Salary</label>
+            <input
+              type="text"
+              id="basic-icon-default-salary"
+              class="form-control dt-salary"
+              placeholder="$12000"
+              aria-label="$12000"
+            />
+          </div>
+          <button type="button" class="btn btn-primary data-submit me-1">Submit</button>
+          <button type="reset" class="btn btn-outline-secondary" data-bs-dismiss="modal">Cancel</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+<!--/ Basic table -->
+
+
+@endsection
+
+
+@section('vendor-script')
+  {{-- vendor files --}}
+  <script src="{{ asset(mix('vendors/js/tables/datatable/jquery.dataTables.min.js')) }}"></script>
+  <script src="{{ asset(mix('vendors/js/tables/datatable/dataTables.bootstrap5.min.js')) }}"></script>
+  <script src="{{ asset(mix('vendors/js/tables/datatable/dataTables.responsive.min.js')) }}"></script>
+  <script src="{{ asset(mix('vendors/js/tables/datatable/responsive.bootstrap5.min.js')) }}"></script>
+  <script src="{{ asset(mix('vendors/js/tables/datatable/datatables.checkboxes.min.js')) }}"></script>
+  <script src="{{ asset(mix('vendors/js/tables/datatable/datatables.buttons.min.js')) }}"></script>
+  <script src="{{ asset(mix('vendors/js/tables/datatable/jszip.min.js')) }}"></script>
+  <script src="{{ asset(mix('vendors/js/tables/datatable/pdfmake.min.js')) }}"></script>
+  <script src="{{ asset(mix('vendors/js/tables/datatable/vfs_fonts.js')) }}"></script>
+  <script src="{{ asset(mix('vendors/js/tables/datatable/buttons.html5.min.js')) }}"></script>
+  <script src="{{ asset(mix('vendors/js/tables/datatable/buttons.print.min.js')) }}"></script>
+  <script src="{{ asset(mix('vendors/js/tables/datatable/dataTables.rowGroup.min.js')) }}"></script>
+  <script src="{{ asset(mix('vendors/js/pickers/flatpickr/flatpickr.min.js')) }}"></script>
+@endsection
+@section('page-script')
+  {{-- Page js files --}}
+<script>
+$(document).ready(function () {
+    $('#pdf').DataTable({
+
+    });
+});
+</script>
+  {{-- <script src="{{ asset(mix('js/scripts/tables/table-datatables-basic.js')) }}"></script> --}}
+@endsection
