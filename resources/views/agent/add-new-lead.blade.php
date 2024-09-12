@@ -46,6 +46,8 @@
                                         <label class="col-form-label">Contact Number</label>
                                         <input class="form-control" type="text" placeholder="Enter contact number"
                                             id="contact_number" name="contact_number" readonly>
+                                        <a href="#" id="UpdateNum">Update Number</a>
+
                                     </div>
                                 </div>
                                 <div class="row">

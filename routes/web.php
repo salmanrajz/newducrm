@@ -6,6 +6,7 @@ use App\Http\Controllers\NumberAssigner;
 use App\Http\Controllers\LeadController;
 use App\Http\Controllers\FunctionController;
 use App\Http\Controllers\VerificationController;
+use App\Http\Controllers\ActivationController;
 use App\Http\Controllers\TestController;
 use App\Http\Controllers\AdminController;
 use Illuminate\Support\Facades\Route;
@@ -26,7 +27,9 @@ Route::get('lang/{locale}', function ($locale) {
     return redirect()->back();
 })->name('lang');
 
-Route::prefix('dashboard')->group(function () {
+// Route::prefix('dashboard')->group(function () {
+Route::group(['prefix' => 'dashboard', 'middleware' => ['auth', '2fa']], function () {
+
     Route::get('/index', [App\Http\Controllers\DashboardController::class, 'index'])->name('index')->middleware('2fa');
 
     // Route::view('index', 'dashboard.index')->name('index')->middleware('2fa');
@@ -53,6 +56,25 @@ Route::group(['prefix' => 'admin', 'middleware' => ['auth', '2fa']], function ()
     Route::post('call-center-add', [AdminController::class, 'cc_add'])->name('cc.add');
     Route::post('call-center-edit-update', [AdminController::class, 'cc_edit'])->name('cc.edit.update');
 
+    Route::get('checksecretcode', [AdminController::class, 'checksecretcode'])->name('checksecretcode');
+    Route::get('search-number', [AdminController::class, 'searchnumber'])->name('searchnumber');
+    Route::post('search-number-original', [AdminController::class, 'searchnumberoriginal'])->name('searchnumberoriginal');
+    // Route::post('number-search-original', 'AjaxController@number_original_lead')->name('number.original.lead');
+
+    Route::get('checkleadnumber', [AdminController::class, 'checkleadnumber'])->name('checkleadnumber');
+    Route::get('search-lead-number', [AdminController::class, 'searchleadnumber'])->name('searchleadnumber');
+    Route::post('search-lead-number-original', [AdminController::class, 'number_original_lead'])->name('number_original_lead');
+    // Route::post('number-search-original', 'AjaxController@number_original_lead')->name('number.original.lead');
+    Route::get('inprocess-lead-hw/{id}', [ActivationController::class, 'inprocessleadviewhw'])->name('inprocessleadviewhw');
+    Route::post('ProceedHW', [ActivationController::class, 'ProceedHW'])->name('proceed.hw');
+    Route::post('RejectLeadsPre', [VerificationController::class, 'RejectLeadsPre'])->name('RejectLeadsPre');
+    Route::post('/CancellationUpdate', [App\Http\Controllers\ActivationController::class, 'CancellationUpdate'])->name('CancellationUpdate');
+
+    //
+    Route::get('role', [AdminController::class, 'role'])->name('role');
+    Route::post('role-add', [AdminController::class, 'roleadd'])->name('role.add');
+
+    //
 });
 
 Route::prefix('widgets')->group(function () {
@@ -298,7 +320,7 @@ Route::prefix('others')->group(function () {
 Route::group(['prefix' => 'authentication'], function () {
 
     // Route::prefix('authentication')->group(function () {
-    Route::get('login', [AuthenticatorController::class, 'AuthenticationMaster'])->name('login');
+    // Route::get('login', [AuthenticatorController::class, 'AuthenticationMaster'])->name('login');
     Route::get('2fa', [AuthenticatorController::class, 'index'])->name('2fa.index')->middleware('auth');
     Route::post('2fa-store', [AuthenticatorController::class, 'store'])->name('2fa.post');
     Route::get('2fa/reset', [AuthenticatorController::class, 'resend'])->name('2fa.resend');
@@ -425,15 +447,18 @@ Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
-Route::group(['prefix' => 'LoadData'], function () {
+Route::group(['prefix' => 'LoadData', 'middleware' => ['auth', '2fa']], function () {
     Route::post('/AgentLoadData', [App\Http\Controllers\DashboardController::class, 'AgentLoadData'])->name('agent.LoadData');
     Route::post('/ActivatorLoadData', [App\Http\Controllers\DashboardController::class, 'ActivatorLoadData'])->name('activator.LoadData');
     Route::post('/AdminLoadData', [App\Http\Controllers\DashboardController::class, 'AdminLoadData'])->name('admin.LoadData');
     Route::post('/VerificationLoadData', [App\Http\Controllers\DashboardController::class, 'VerificationLoadData'])->name('verification.LoadData');
     // Route::post('/LeadLoadData', [App\Http\Controllers\DashboardController::class, 'LeadLoadData'])->name('agent.LeadLoadData');
     Route::post('/ActivatorPreCheckData', [App\Http\Controllers\DashboardController::class, 'ActivatorPreCheckData'])->name('activator.PreCheckLeads');
+    Route::post('/CancellationDatas', [App\Http\Controllers\DashboardController::class, 'CancellationDatas'])->name('CancellationDatas');
     // Route::post('/VerificationPendingLead', [App\Http\Controllers\DashboardController::class, 'VerificationPendingLead'])->name('verification.PendingLeads');
     // Route::post('/ActivatorPreCheckData', [App\Http\Controllers\DashboardController::class, 'VerificationLoad'])->name('verification.PreCheckLeads');
+    // Route::post('/canceller.LoadData', [App\Http\Controllers\DashboardController::class, 'ActivatorPreCheckData'])->name('activator.PreCheckLeads');
+    Route::post('/CancellerLoadData', [App\Http\Controllers\DashboardController::class, 'CancellerLoadData'])->name('canceller.LoadData');
 
 
 
@@ -504,6 +529,7 @@ Route::group(['prefix' => 'call','middleware'=>'auth'], function () {
 Route::group(['prefix' => 'verification', 'middleware' => 'auth'], function () {
     Route::get('verification-lead/{id}', [\App\Http\Controllers\VerificationController::class, 'VerificationLead'])->name('verification.lead');
     Route::get('precheck-lead/{id}', [\App\Http\Controllers\VerificationController::class, 'PreCheckLead'])->name('precheck.lead');
+    Route::get('active-cclead/{id}', [\App\Http\Controllers\VerificationController::class, 'ActiveCCLead'])->name('ActiveCCLead');
     Route::post('verifyLead', [VerificationController::class, 'verifyLead'])->name('verifyLead');
 
 });

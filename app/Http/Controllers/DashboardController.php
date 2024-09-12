@@ -35,11 +35,16 @@ class DashboardController extends Controller
     }
     //
     //
+    public function CancellerLoadData(Request $request){
+        return view('load_data.canceller-dashboard-data');
+    }
+    //
+    //
     public function LeadLoadData(Request $request){
         $heading = $request->type;
         $status = $request->type;
         // return auth()->user()->id;
-         $data = lead_sale::select('lead_sales.customer_name', 'lead_sales.id', 'lead_sales.email', 'lead_sales.customer_number', 'status_codes.status_name as status', 'home_wifi_plans.name as plan_name', 'lead_sales.lead_no', 'lead_sales.created_at', 'lead_sales.updated_at', 'lead_sales.reff_id', 'lead_sales.work_order_num', 'users.name as agent_name', 'lead_sales.lead_type')
+         $data = lead_sale::select('lead_sales.customer_name', 'lead_sales.id', 'lead_sales.email', 'lead_sales.customer_number', 'status_codes.status_name as status', 'home_wifi_plans.name as plan_name', 'lead_sales.lead_no', 'lead_sales.created_at', 'lead_sales.updated_at', 'lead_sales.reff_id', 'lead_sales.work_order_num', 'users.name as agent_name', 'lead_sales.lead_type','lead_sales.status as status_code')
         // ->where('lead_sales.lead_type', '')
         ->LeftJoin(
             'home_wifi_plans',
@@ -81,7 +86,7 @@ class DashboardController extends Controller
         $heading = $request->type;
         $status = $request->type;
         // return auth()->user()->;
-         $data = lead_sale::select('lead_sales.customer_name', 'lead_sales.id', 'lead_sales.email', 'lead_sales.customer_number', 'status_codes.status_name as status', 'lead_sales.lead_no', 'lead_sales.created_at', 'lead_sales.updated_at', 'lead_sales.reff_id', 'lead_sales.work_order_num', 'users.name as agent_name', 'lead_sales.lead_type')
+         $data = lead_sale::select('lead_sales.customer_name', 'lead_sales.id', 'lead_sales.email', 'lead_sales.customer_number', 'status_codes.status_name as status', 'lead_sales.lead_no', 'lead_sales.created_at', 'lead_sales.updated_at', 'lead_sales.reff_id', 'lead_sales.work_order_num', 'users.name as agent_name', 'lead_sales.lead_type','lead_sales.status as status_code')
         // ->where('lead_sales.lead_type', '')
         // ->Join(
         //     'home_wifi_plans',
@@ -102,6 +107,23 @@ class DashboardController extends Controller
                 if ($status == 'ActiveLeads') {
                     $q->where('lead_sales.status', '1.02');
                 }
+                elseif ($status == 'TotalActivePostpaid') {
+                    $q->where('lead_sales.status', '1.02')
+                    ->whereIn('lead_sales.lead_type',['P2P','MNP']);
+                }
+                elseif ($status == 'TotalActive') {
+                    $q->where('lead_sales.status', '1.02')
+                    ->whereIn('lead_sales.lead_type',['HomeWifi']);
+                }
+                elseif ($status == 'ActiveLeadsSameID') {
+                    $q->whereIn('lead_sales.status', ['1.02'])
+                    ->where('lead_sales.id_type', 'same_id')
+                    ->where('lead_sales.lead_type', 'HomeWifi');
+                } elseif ($status == 'ActiveLeadsAltID') {
+                $q->whereIn('lead_sales.status', ['1.02'])
+                ->where('lead_sales.id_type', 'New')
+                ->where('lead_sales.lead_type', 'HomeWifi');
+            }
                 elseif ($status == 'InProcessLead') {
                     $q->whereIn('lead_sales.status', ['1.10','1.05','1.07','1.08']);
                 }
@@ -118,6 +140,54 @@ class DashboardController extends Controller
                 }
                 elseif ($status == 'RejectLeads') {
                     $q->whereIn('lead_sales.status', ['1.15']);
+                }
+            })
+            // ->where('users.id',auth()->user()->id)
+            // ->where('users.agent_code', auth()->user()->agent_code)
+            ->get();
+        return view('load_data.lead-data-load',compact('heading','data'));
+    }
+    //
+    //
+    public function CancellationDatas(Request $request){
+        $heading = $request->type;
+        $status = $request->type;
+        // return auth()->user()->;
+         $data = lead_sale::select('lead_sales.customer_name', 'lead_sales.id', 'lead_sales.email', 'lead_sales.customer_number', 'status_codes.status_name as status', 'lead_sales.lead_no', 'lead_sales.created_at', 'lead_sales.updated_at', 'lead_sales.reff_id', 'lead_sales.work_order_num', 'users.name as agent_name', 'lead_sales.lead_type','lead_sales.status as status_code')
+        // ->where('lead_sales.lead_type', '')
+        // ->Join(
+        //     'home_wifi_plans',
+        //     'home_wifi_plans.id',
+        //     'lead_sales.plans'
+        // )
+            ->Join(
+                'status_codes',
+                'status_codes.status_code',
+                'lead_sales.status'
+            )
+            ->Join(
+                'users',
+                'users.id',
+                'lead_sales.saler_id'
+            )
+            ->when($status, function ($q) use ($status) {
+                if ($status == 'BC01CancellationPending') {
+                $q->whereIn('lead_sales.status', ['1.02'])
+                    ->where('lead_sales.old_billing_cycle', 1)
+                    ->where('lead_sales.cancel_status', 'Not Cancelled')
+                    ->where('lead_sales.lead_type', 'HomeWifi');
+                }
+                elseif ($status == 'BC07CancellationPending') {
+                    $q->whereIn('lead_sales.status', ['1.02'])
+                        ->where('lead_sales.old_billing_cycle', 7)
+                        ->where('lead_sales.cancel_status', 'Not Cancelled')
+                        ->where('lead_sales.lead_type', 'HomeWifi');
+                }
+                elseif ($status == 'BC17CancellationPending') {
+                    $q->whereIn('lead_sales.status', ['1.02'])
+                        ->where('lead_sales.old_billing_cycle', 17)
+                        ->where('lead_sales.cancel_status', 'Not Cancelled')
+                        ->where('lead_sales.lead_type', 'HomeWifi');
                 }
             })
             // ->where('users.id',auth()->user()->id)

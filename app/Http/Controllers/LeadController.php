@@ -1889,11 +1889,11 @@ class LeadController extends Controller
         //     ->whereNotIn('status', ['1.1500000000000001', '1.0200000000000001', '1.1400000000000001', '1.15', '1.02', '1.15'])
         //     ->where('is_allowed', 0)
         //     ->first();
+        $ddm = \App\Models\WhatsAppMnpBank::where('number_id',$request->logsystemid)->first();
+        if (!$ddm) {
 
-        // if ($ddm) {
-
-        //     return response()->json(['error' => ['Documents' => ['Request Already Proceed !!! Error']]], 200);
-        // }
+            return response()->json(['error' => ['Documents' => ['Short Code Does not belong to US']]], 200);
+        }
         $ddm1 = lead_sale::where('emirate_id', $request->emirate_id)
         ->where('is_allowed',0)
         ->whereNotIn('status', ['1.1500000000000001', '1.0200000000000001', '1.1400000000000001', '1.15', '1.02', '1.14'])
@@ -1939,7 +1939,9 @@ class LeadController extends Controller
             $additional_docs_photo = $originalFileName;
             $file->move('documents', $additional_docs_photo);
         } else {
-            return response()->json(['error' => ['Documents' => ['there is an issue in Additional Docs, Contact Team Leader']]], 200);
+            $additional_docs_photo =  '';
+
+            // return response()->json(['error' => ['Documents' => ['there is an issue in Additional Docs, Contact Team Leader']]], 200);
             // $additional_docs_photo =  $request->additional_docs_photo;
         }
         if ($file = $request->file('back_docs')) {

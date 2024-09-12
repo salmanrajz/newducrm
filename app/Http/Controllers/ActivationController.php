@@ -659,16 +659,55 @@ class ActivationController extends Controller
 
     }
     //
+    public function CancellationUpdate(Request $request){
+        $validatedData = Validator::make($request->all(), [
+            'latest_status' => 'required',
+            // 'tt_number' => 'required',
+            'tt_number' => 'required_if:latest_status,==,Cancelled',
+
+        ]);
+        if ($validatedData->fails()) {
+            return response()->json(['error' => $validatedData->errors()->all()]);
+        }
+        //
+        $ld = lead_sale::findorfail($request->leadid);
+        $ld->cancel_status = $request->latest_status;
+        $ld->tt_number = $request->tt_number;
+        $ld->save();
+
+        $manual_remarks = 'OLD 5G Cancel Status =>' .$request->latest_status . ' OLD TT Number' . $request->tt_number;
+        remark::create([
+            'remarks' => $request->remarks . ' ' . $manual_remarks,
+            'lead_status' => '1.01',
+            'lead_id' => $ld->id,
+            'lead_no' => $ld->id,
+            'date_time' => $current_date_time = Carbon::now()->toDateTimeString(), // Produces something like "2019-03-11 12:25:00"
+            'user_agent' => auth()->user()->name,
+            'user_agent_id' => auth()->user()->id,
+        ]);
+        return response()->json(['success' => 'Added new records, please wait meanwhile we are redirecting you....!!!']);
+
+
+    }
+    //
     public function ProceedHW(Request $request){
         // return $request;
         $validatedData = Validator::make($request->all(), [
             // 'shipment' => 'required',
             // 'omid' => 'required',
-            'activation_screenshot' => 'required',
+            // 'activation_screenshot' => 'required',
             'contract_id' => 'required',
             'account_id' => 'required',
             'billing_cycle' => 'required',
             'reff_id' => 'required',
+            'old_fivejee_number' => 'required',
+            'old_account_id' => 'required',
+            'old_billing_cycle' => 'required',
+            'old_account_emirate_id' => 'required',
+            'old_registered_number' => 'required',
+            'old_registered_email' => 'required',
+            'old_expiry_date' => 'required|date|after:tomorrow',
+            'old_dob' => ['before:20 years ago'],
 
         ]);
         if ($validatedData->fails()) {
@@ -693,8 +732,8 @@ class ActivationController extends Controller
             $file->move('documents', $activation_screenshot);
         } else {
             // $additional_docs_photo = $request->old_additional_docs_name;
-            return response()->json(['error' => ['Documents' => ['there is an issue in Additional Docs, Contact Team Leader']]], 200);
-            // $additional_docs_photo =  $request->additional_docs_photo;
+            // return response()->json(['error' => ['Documents' => ['there is an issue in Additional Docs, Contact Team Leader']]], 200);
+            $activation_screenshot =  'Blank';
         }
         //
         $ld = lead_sale::findorfail($request->leadid);
@@ -706,8 +745,19 @@ class ActivationController extends Controller
         $ld->contract_id = $request->contract_id;
         $ld->billing_cycle = $request->billing_cycle;
         $ld->account_id = $request->account_id;
-        $ld->billing_date = $request->billing_date;
-        $ld->sim_number = $request->sim_number;
+        //
+        // $ld->contract_id = $request->contract_id;
+        $ld->old_billing_cycle = $request->old_billing_cycle;
+        $ld->old_account_id = $request->old_account_id;
+        $ld->old_account_emirate_id = $request->old_account_emirate_id;
+        $ld->old_fivejee_number = $request->old_fivejee_number;
+        $ld->old_registered_number = $request->old_registered_number;
+        $ld->old_registered_email = $request->old_registered_email;
+        $ld->old_expiry_date = $request->old_expiry_date;
+        $ld->old_dob = $request->old_dob;
+        $ld->cancel_status = 'Not Cancelled';
+        // $ld->billing_date = $request->billing_date;
+        // $ld->sim_number = $request->sim_number;
         $ld->status = '1.02';
         $ld->save();
         //
@@ -786,46 +836,46 @@ class ActivationController extends Controller
             // 'AlternativeNumber' => $alternativeNumber,
         ];
         FunctionController::SendActiveWhatsApp($details);
-        if($lead->plans == 6 || $lead->plans == 7){
-            $zp = \App\Models\fne_data::select('fne_datas.5g_number as fnumber','fne_datas.*')->where('id',$lead->reff_id)->first();
-            if($zp){
-                $expirycp = \Carbon\Carbon::parse($zp->expiry)->format('d-m-Y');
-                $date = Carbon::createFromFormat('d-m-Y', $expirycp);
+        // if($lead->plans == 6 || $lead->plans == 7){
+        //     $zp = \App\Models\fne_data::select('fne_datas.5g_number as fnumber','fne_datas.*')->where('id',$lead->reff_id)->first();
+        //     if($zp){
+        //         $expirycp = \Carbon\Carbon::parse($zp->expiry)->format('d-m-Y');
+        //         $date = Carbon::createFromFormat('d-m-Y', $expirycp);
 
-                $created = $date->subYear(); // Subtracts 1 day
-                $created = \Carbon\Carbon::parse($created)->format('d-m-Y');
+        //         $created = $date->subYear(); // Subtracts 1 day
+        //         $created = \Carbon\Carbon::parse($created)->format('d-m-Y');
 
-            $details_cancellation = [
-                'account_code' => $lead->accound_id,
-                'msisdn' => $zp->fnumber,
-                'plan_name' => 'HW PLUS',
-                'contract_start' => $created,
-                'request_type' => '5G Cancellation',
-                'contract_code' => $lead->contract_id,
-            ];
-        }
-        else{
+        //     $details_cancellation = [
+        //         'account_code' => $lead->accound_id,
+        //         'msisdn' => $zp->fnumber,
+        //         'plan_name' => 'HW PLUS',
+        //         'contract_start' => $created,
+        //         'request_type' => '5G Cancellation',
+        //         'contract_code' => $lead->contract_id,
+        //     ];
+        // }
+        // else{
 
-                            $details_cancellation = [
-                                'account_code' => $lead->account_id,
-                                'msisdn' => 'PLEASE FILL MANUAL',
-                                'plan_name' => $lead->account_code,
-                                'contract_start' => 'PLEASE FILL MANUAL',
-                                'request_type' => '5G Cancellation',
-                                'contract_code' => $lead->contract_id,
-                            ];
+        //                     $details_cancellation = [
+        //                         'account_code' => $lead->account_id,
+        //                         'msisdn' => 'PLEASE FILL MANUAL',
+        //                         'plan_name' => $lead->account_code,
+        //                         'contract_start' => 'PLEASE FILL MANUAL',
+        //                         'request_type' => '5G Cancellation',
+        //                         'contract_code' => $lead->contract_id,
+        //                     ];
 
-            }
+        //     }
 
 
-        \Mail::mailer()
-        ->to(['azeem@vocus.ae', 'sales@vocus.ae','shahzaib.hasan@du.ae'])
-        // ->to(['parhakooo@gmail.com'])
-        ->cc(['salmanahmed334@gmail.com', 'parhakooo@gmail.com'])
-        ->bcc(['salmanahmed334@gmail.com'])
-            // ->from('crm.riuman.com','riuman')
-            ->send(new \App\Mail\cancellation_case($details_cancellation));
-        }
+        // \Mail::mailer()
+        // ->to(['azeem@vocus.ae', 'sales@vocus.ae','shahzaib.hasan@du.ae'])
+        // // ->to(['parhakooo@gmail.com'])
+        // ->cc(['salmanahmed334@gmail.com', 'parhakooo@gmail.com'])
+        // ->bcc(['salmanahmed334@gmail.com'])
+        //     // ->from('crm.riuman.com','riuman')
+        //     ->send(new \App\Mail\cancellation_case($details_cancellation));
+        // }
         //
         // $remarks = remark::create
         return response()->json(['success' => 'Added new records, please wait meanwhile we are redirecting you....!!!']);

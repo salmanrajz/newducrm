@@ -1,56 +1,32 @@
-@extends('layouts/contentLayoutMaster')
+@extends('layouts.simple.master')
+@section('title', 'Data Forms')
 
-@section('title', 'MNP | P2P Leads')
+@section('css')
+@endsection
+
+@section('style')
+@endsection
+
+@section('breadcrumb-title')
+<h3>Data Forms</h3>
+@endsection
+
+@section('breadcrumb-items')
+<li class="breadcrumb-item">Home Wifi</li>
+<li class="breadcrumb-item active">Data Forms</li>
+@endsection
 
 @section('content')
-<!-- Basic Horizontal form layout section start -->
-
-<!-- Basic Horizontal form layout section end -->
-
-<!-- Basic Vertical form layout section start -->
-<section id="basic-vertical-layouts">
+<div class="container-fluid">
     <div class="row">
-
-        <div class="col-md-12 col-12">
-            <div class="card">
-                <div class="card-header">
-                    <h4 class="card-title">Upload Front ID for Data Fetching</h4>
-                </div>
-                <div class="form-container container">
-                    <div class="row">
-                        {{-- <div class="col-12">
-                            <form onsubmit="return false" method="post" enctype="multipart/form-data"
-                                id="FetchApiForm3">
-@csrf
-                                <div class="mb-1">
-                                    <label class="form-label" for="first-name-icon">Emirate Front ID:</label>
-                                    <div class="input-group input-group-merge">
-                                        <input type="file" name="front_img" id="front_img"
-                                            onchange="NameApi('{{ route('ocr-name.submit') }}','FetchApiForm3')">
-                        <h3 class="text-center" id="loading_num1" style="display:none">
-                            <img src="{{ asset('assets/images/loader.gif') }}" alt="Loading"
-                                class="img-fluid text-center offset-md-6" style="width:35px;">
-                        </h3>
-                        <div class="form-group hidden d-none">
-                            <label for="dob">Name:</label>
-                            <input type="text" name="dob" id="name">
+        <div class="col-sm-12 col-xl-12">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <h5>Data form</h5>
                         </div>
-                        <div class="form-group  hidden d-none ">
-                            <label for="dob">Emirate ID:</label>
-                            <input type="text" name="dob" id="emirate_id_l">
-                        </div>
-                    </div>
-                </div>
-
-                </form>
-            </div> --}}
-
-        </div>
-    </div>
-    <div class="card-header">
-        <h4 class="card-title">Lead Information</h4>
-    </div>
-    <div class="card-body">
+                        <div class="card-body">
         <form class="form form-vertical" id="MyRoleForm" onsubmit="return false">
             <div class="col-md-6 col-sm-6 col-xs-12 form-group ">
                 <input class="form-control " id="leadno" value="{{ $data->lead_no }}" placeholder="Lead Number"
@@ -60,7 +36,7 @@
                 <!-- <span class="fa fa-lock form-control-feedback left" aria-hidden="true"></span> -->
             </div>
             <div class="row">
-                <div class="col-12">
+                <div class="col-4">
                     <div class="mb-1">
                         <label class="form-label" for="first-name-icon">Full Name</label>
                         <div class="input-group input-group-merge">
@@ -71,17 +47,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12">
-                    <div class="mb-1">
-                        <label class="form-label" for="first-name-icon">Email</label>
-                        <div class="input-group input-group-merge">
-                            <span class="input-group-text"><i data-feather="user"></i></span>
-                            <input type="text" id="first-name-icon" class="form-control" name="email"
-                                placeholder="Email" required value="{{ $data->email }}" disabled />
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12">
+
+                <div class="col-4">
                     <div class="mb-1">
                         <label class="form-label" for="first-name-icon">Users Contact #</label>
                         <div class="input-group input-group-merge">
@@ -94,7 +61,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12">
+                <div class="col-4">
                     <div class="mb-1">
                         <label class="form-label" for="first-name-icon">Emirate ID</label>
                         <div class="input-group input-group-merge">
@@ -108,7 +75,7 @@
                     </div>
                 </div>
 
-                <div class="col-12">
+                <div class="col-4">
                     <div class="mb-1">
                         <label class="form-label" for="first-name-icon">Nationality/Citizen</label>
                         <div class="input-group input-group-merge">
@@ -123,7 +90,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12">
+                <div class="col-4">
                     <div class="mb-1">
                         <label class="form-label" for="first-name-icon">Gender</label>
                         <div class="input-group input-group-merge">
@@ -140,7 +107,7 @@
                     </div>
                 </div>
 
-                <div class="col-12">
+                <div class="col-4">
                     <div class="mb-1">
                         <label class="form-label" for="first-name-icon">Date of Birth</label>
                         <div class="input-group input-group-merge">
@@ -150,7 +117,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12">
+                <div class="col-4">
                     <div class="mb-1">
                         <label class="form-label" for="first-name-icon">Emirate Expiry</label>
                         <div class="input-group input-group-merge">
@@ -161,7 +128,7 @@
                     </div>
                 </div>
 
-                <div class="col-12">
+                <div class="col-4">
                     <div class="mb-1">
                         <label class="form-label" for="first-name-icon">Emirates</label>
                         <div class="input-group input-group-merge">
@@ -176,36 +143,8 @@
                     </div>
                 </div>
 
-                <div class="col-12">
-                    <div class="mb-1">
-                        <label class="form-label" for="first-name-icon">Additional Documents</label>
-                        <div class="input-group input-group-merge">
-                            <span class="input-group-text"><i data-feather="map"></i></span>
-                            <select name="additional_docs_name" id="additional_docs_name" class="form-control" disabled>
-                                <option value="Ejari"
-                                    {{ $data->additional_docs_name == 'Ejari' ? 'selected' : '' }}>
-                                    Ejari</option>
-                                <option value="Tenancy contract"
-                                    {{ $data->additional_docs_name == 'Tenancy contract' ? 'selected' : '' }}>
-                                    Tenancy contract</option>
-                                <option value="Title deed (front side)"
-                                    {{ $data->additional_docs_name == 'Title deed (front side)' ? 'selected' : '' }}>
-                                    Title deed (front side)</option>
-                                <option value="Salary Certificate"
-                                    {{ $data->additional_docs_name == 'Salary Certificate' ? 'selected' : '' }}>
-                                    Salary Certificate (latest 3 months (min. salary of AED 2,500 with UAE based company
-                                    name. Contact details, original company stamp on letterhead is required))</option>
-                                <option value="Utility Bill"
-                                    {{ $data->additional_docs_name == 'Utility Bill' ? 'selected' : '' }}>
-                                    Utility Bill - latest 3 months (Electricity / Water / Internet or TV / landline /
-                                    broadband bill)</option>
-                                <option value="Labour Contract"
-                                    {{ $data->additional_docs_name == 'Labour Contract' ? 'selected' : '' }}>
-                                    Labour contract (pages with Name, nationality, Passport numbers)</option>
-                            </select> </div>
-                    </div>
-                </div>
-<div class="col-12">
+
+                <div class="col-4">
                     <div class="mb-1">
                         <label class="form-label" for="first-name-icon">Lead Type</label>
                         <div class="input-group input-group-merge">
@@ -215,7 +154,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-8">
+                <div class="col-4">
                     <div class="mb-1">
                         <label class="form-label" for="first-name-icon">Tracking ID</label>
                         <div class="input-group input-group-merge">
@@ -225,18 +164,21 @@
                         </div>
                     </div>
                 </div>
+               <div class="col-md-4 mb-3">
+                                        <label class="col-form-label">Customer Type</label>
+                                        <select name="customer_type" id="customer_type" class="is_mnp form-control"
+                                            required>
+                                            <option value="New"
+                                                {{ $data->id_type == 'New' ? 'selected' : '' }}>
+                                                New Alternative ID</option>
+                                            <option value="same_id"
+                                                {{ $data->id_type == 'same_id' ? 'selected' : '' }}>
+                                                Same Emirate ID</option>
+                                            {{-- <option value="Urdu">Urdu/Hindi</option> --}}
+                                        </select>
+                                    </div>
 
-                <div class="col-8">
-                    <div class="mb-1">
-                        <label class="form-label" for="first-name-icon">Remarks</label>
-                        <div class="input-group input-group-merge">
-                            <span class="input-group-text"><i data-feather="user"></i></span>
-                            <input type="text" name="remarks" id="remarks" class="form-control"
-                                value="{{ $data->remarks }}" autocomplete="false">
-                        </div>
-                    </div>
 
-                </div>
                 @if($data->lead_type == 'P2P')
                     <div class="col-12">
                         <div class="mb-1">
@@ -263,41 +205,45 @@
                         </div>
                     </div>
                 @elseif($data->lead_type == 'HomeWifi')
-                <div class="col-8">
+                <hr>
+                <h6 class="text-center">Current Activation Details</h6>
+                <hr>
+                <div class="row">
+                    <div class="col-3">
                     <div class="mb-1">
                         <label class="form-label" for="first-name-icon">5G Number</label>
                         <div class="input-group input-group-merge">
-                            <span class="input-group-text"><i data-feather="user"></i></span>
+                            {{-- <span class="input-group-text"><i data-feather="user"></i></span> --}}
                             <input type="text" name="reff_id" id="reff_id" class="form-control"
                                 value="{{ $data->reff_id }}" autocomplete="false">
                         </div>
                     </div>
                 </div>
-                <div class="col-8">
+                <div class="col-3">
                     <div class="mb-1">
                         <label class="form-label" for="first-name-icon">Contract ID</label>
                         <div class="input-group input-group-merge">
-                            <span class="input-group-text"><i data-feather="user"></i></span>
+                            {{-- <span class="input-group-text"><i data-feather="user"></i></span> --}}
                             <input type="text" name="contract_id" id="contract_id" class="form-control"
                                 value="{{ $data->contract_id }}" autocomplete="false">
                         </div>
                     </div>
                 </div>
-                <div class="col-8">
+                <div class="col-3">
                     <div class="mb-1">
                         <label class="form-label" for="first-name-icon">Account ID</label>
                         <div class="input-group input-group-merge">
-                            <span class="input-group-text"><i data-feather="user"></i></span>
+                            {{-- <span class="input-group-text"><i data-feather="user"></i></span> --}}
                             <input type="text" name="account_id" id="account_id" class="form-control"
                                 value="{{ $data->account_id }}" autocomplete="false">
                         </div>
                     </div>
                 </div>
-                <div class="col-8">
+                <div class="col-3">
                     <div class="mb-1">
                         <label class="form-label" for="first-name-icon">Billing Cycle</label>
                         <div class="input-group input-group-merge">
-                            <span class="input-group-text"><i data-feather="user"></i></span>
+                            {{-- <span class="input-group-text"><i data-feather="user"></i></span> --}}
                             <select name="billing_cycle" id="billing_cycle" class="form-control">
                                 <option value="1">1</option>
                                 <option value="7">7</option>
@@ -306,39 +252,89 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-8">
+
+
+                </div>
+                <hr>
+                <h6 class="text-center">Old HW Activation Details</h6>
+                <hr>
+                <div class="row mb-5">
+                    <div class="col-3">
                     <div class="mb-1">
-                        <label class="form-label" for="first-name-icon">Billing Date</label>
+                        <label class="form-label" for="first-name-icon">Old 5G Number</label>
                         <div class="input-group input-group-merge">
-                            <span class="input-group-text"><i data-feather="user"></i></span>
-                            <input type="date" name="billing_date" id="billing_date" class="form-control">
+                            <input type="text" name="old_fivejee_number" id="old_fivejee_number" class="form-control"
+                                value="{{ $data->old_fivejee_number }}" autocomplete="false">
                         </div>
                     </div>
                 </div>
-                <div class="col-8">
+                <div class="col-3">
                     <div class="mb-1">
-                        <label class="form-label" for="first-name-icon">Sim Number</label>
+                        <label class="form-label" for="first-name-icon">Account ID</label>
                         <div class="input-group input-group-merge">
-                            <span class="input-group-text"><i data-feather="user"></i></span>
-                            <input type="tel" name="sim_number" id="sim_number" class="form-control">
+                            <input type="text" name="old_account_id" id="old_account_id" class="form-control"
+                                value="{{ $data->old_account_id }}" autocomplete="false">
                         </div>
                     </div>
                 </div>
-                    <div class="col-12">
-                        <div class="mb-1">
-                            <label class="form-label" for="first-name-icon">Activation Screenshot:</label>
-                            <div class="input-group input-group-merge">
-                                <input type="file" name="activation_screenshot" id="additional_documents"
-                                    class="form-control" accept="image/*">
-
-                                </h3>
-                            </div>
-
-                            <img id="myImg3"
-                                src="{{ env('CDN_URL') }}/documents/{{ $data->additional_docs }}"
-                                alt="your image" style="width:25%" onerror="this.style.display='none'" />
+                <div class="col-3">
+                    <div class="mb-1">
+                        <label class="form-label" for="first-name-icon">Billing Cycle</label>
+                        <div class="input-group input-group-merge">
+                            <select name="old_billing_cycle" id="old_billing_cycle" class="form-control">
+                                <option value="1">1</option>
+                                <option value="7">7</option>
+                                <option value="17">17</option>
+                            </select>
                         </div>
                     </div>
+                </div>
+                <div class="col-3">
+                    <div class="mb-1">
+                        <label class="form-label" for="first-name-icon">Old Emirate ID</label>
+                        <div class="input-group input-group-merge">
+                            <input type="text" id="old_account_emirate_id" class="form-control" name="old_account_emirate_id"
+                                            placeholder="Emirate ID" required
+                                            data-inputmask="'mask': '999-9999-9999999-9'"
+                                            placeholder="XXXXX-XXXXXXX-X" />
+                            {{-- <input type="text" name="old_emirate_id" id="old_emirate_id"  class="form-control"> --}}
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="mb-1">
+                        <label class="form-label" for="first-name-icon">Old Reg Number</label>
+                        <input type="text" name="old_registered_number" id="old_registered_number"  class="form-control">
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="mb-1">
+                        <label class="form-label" for="first-name-icon">Old Reg Email</label>
+                        <div class="input-group input-group-merge">
+                            <input type="text" name="old_registered_email" id="old_registered_email"  class="form-control">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="mb-1">
+                        <label class="form-label" for="first-name-icon">Old Expiry Date</label>
+                        <div class="input-group input-group-merge">
+                            <input type="date" name="old_expiry_date" id="old_expiry_date"  class="form-control">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="mb-1">
+                        <label class="form-label" for="first-name-icon">OLD Date Of Birth</label>
+                        <div class="input-group input-group-merge">
+                            <input type="date" name="old_dob" id="old_dob"  class="form-control">
+                        </div>
+                    </div>
+                </div>
+
+                </div>
+
+
 
                 @else
                     <div class="col-12">
@@ -459,23 +455,17 @@
             </div>
         </form>
     </div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
     </div>
-    </div>
+</div>
+@endsection
 
-    </div>
-    @include('admin.chat.chat')
-
-</section>
-<!-- Basic Vertical form layout section end -->
-
-<!-- Basic multiple Column Form section start -->
-
-
-@endsection<!-- Basic Floating Label Form section end -->
-@section('page-script')
-<!-- Page js files -->
-<script src="{{ asset(mix('js/custom.js')) }}"></script>
-<!-- Page js files -->
+@section('script')
 <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/jquery.inputmask.bundle.js"></script>
 <script>
     $(":input").inputmask();

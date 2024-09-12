@@ -63,6 +63,24 @@
                             <li><a class="" href="{{ route('view-users') }}">View Users</a></li>
                             {{-- <li><a class="" href="{{ route('call.center') }}">Add CC</a></li> --}}
                             <li><a class="" href="{{ route('call.center') }}">View CC</a></li>
+                            <li><a class="" href="{{ route('checksecretcode') }}">Secret Code</a></li>
+                            <li><a class="" href="{{ route('checkleadnumber') }}">Search Lead</a></li>
+                        </ul>
+                    </li>
+
+                    @endrole
+                    @role('Activator')
+                    <li class="sidebar-list"><i class="fa fa-thumb-tack"></i>
+                        <label class="badge badge-light-primary">5</label><a class="sidebar-link sidebar-title"
+                            href="#">
+                            <svg class="stroke-icon">
+                                <use href="{{ asset('assets/svg/icon-sprite.svg#stroke-home') }}"></use>
+                            </svg>
+                            <svg class="fill-icon">
+                                <use href="{{ asset('assets/svg/icon-sprite.svg#fill-home') }}"></use>
+                            </svg><span class="lan-3">Dashboard</span></a>
+                        <ul class="sidebar-submenu">
+                            <li><a class="" href="{{ route('checksecretcode') }}">Secret Code</a></li>
                         </ul>
                     </li>
 

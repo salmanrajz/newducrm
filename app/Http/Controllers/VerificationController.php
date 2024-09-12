@@ -55,6 +55,17 @@ class VerificationController extends Controller
         // $countries = country_phone_code::all();
         return view('admin.verification.manage-precheck-lead',compact('data', 'emirate', 'countries', 'remarks','plan', 'mnpplan'));
     }
+    public function ActiveCCLead(Request $request){
+        // return $request->id;
+        $data = lead_sale::findorfail($request->id);
+        $emirate  = emirate::all();
+        $countries = country_phone_code::all();
+        $remarks = remark::where('lead_id',$request->id)->get();
+        $plan = HomeWifiPlan::where('status',1)->get();
+        $mnpplan = plan::where('status',1)->get();
+        // $countries = country_phone_code::all();
+        return view('admin.verification.manage-activecc-lead',compact('data', 'emirate', 'countries', 'remarks','plan', 'mnpplan'));
+    }
     //
     public function verifyLead(Request $request){
         // return $request;

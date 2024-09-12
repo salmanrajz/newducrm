@@ -37,12 +37,23 @@
                                                 </li>
                                                 @endrole
                                                 @role('Activator')
+                                                @if($item->status_code == '1.05')
+                                                <li class="edit"> <a href="{{route('inprocessleadviewhw',$item->id)}}"><i class="icon-eye" data-bs-toggle="modal" data-original-title="test" data-bs-target="#exampleModal"></i></a>
+                                                @elseif($item->status_code == '1.01')
                                                 <li class="edit"> <a href="{{route('precheck.lead',$item->id)}}"><i class="icon-eye" data-bs-toggle="modal" data-original-title="test" data-bs-target="#exampleModal"></i></a>
+                                                @elseif($item->status_code=='1.02')
+                                                <li class="edit"> <a href="{{route('ActiveCCLead',$item->id)}}"><i class="icon-eye" data-bs-toggle="modal" data-original-title="test" data-bs-target="#exampleModal"></i></a>
+                                                @endif
                                                 </li>
                                                 @endrole
                                                 @role('Verification')
                                                 <li class="edit"> <a href="{{route('verification.lead',$item->id)}}"><i class="icon-eye" data-bs-toggle="modal" data-original-title="test" data-bs-target="#exampleModal"></i></a>
                                                 </li>
+                                                @endrole
+                                                @role('Canceller')
+                                                @if($item->status_code=='1.02')
+                                                <li class="edit"> <a href="{{route('ActiveCCLead',$item->id)}}"><i class="icon-eye" data-bs-toggle="modal" data-original-title="test" data-bs-target="#exampleModal"></i></a>
+                                                @endif
                                                 @endrole
                                             </ul>
                                         </td>

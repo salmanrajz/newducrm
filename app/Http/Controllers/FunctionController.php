@@ -5243,6 +5243,7 @@ class FunctionController extends Controller
     //
     public static function HWPreCheckUp($day,$status){
         // return "ok";
+        // return
         $myrole = auth()->user()->agent_code;
         return $data = lead_sale::select('lead_sales.id')
         // ->Join(
@@ -5266,8 +5267,44 @@ class FunctionController extends Controller
                 $q->whereIn('lead_sales.status', ['1.01'])
                 ->whereIn('lead_sales.lead_type', ['MNP', 'P2P']);
             }
-            elseif ($status == 'active') {
-                $q->whereIn('lead_sales.status', ['1.02']);
+            elseif ($status == 'ActiveLeadsAltID') {
+                $q->whereIn('lead_sales.status', ['1.02'])
+                ->where('lead_sales.id_type','New')
+                ->where('lead_sales.lead_type', 'HomeWifi');
+
+            }
+            elseif ($status == 'ActiveLeadsSameID') {
+                $q->whereIn('lead_sales.status', ['1.02'])
+                    ->where('lead_sales.id_type', 'same_id')
+                    ->where('lead_sales.lead_type', 'HomeWifi');
+            }
+            elseif ($status == 'BC01CancellationPending') {
+                $q->whereIn('lead_sales.status', ['1.02'])
+                    ->where('lead_sales.old_billing_cycle', 1)
+                    ->where('lead_sales.cancel_status', 'Not Cancelled')
+                    ->where('lead_sales.lead_type', 'HomeWifi');
+            }
+            elseif ($status == 'BC07CancellationPending') {
+                $q->whereIn('lead_sales.status', ['1.02'])
+                    ->where('lead_sales.old_billing_cycle', 7)
+                    ->where('lead_sales.cancel_status', 'Not Cancelled')
+                    ->where('lead_sales.lead_type', 'HomeWifi');
+            }
+            elseif ($status == 'BC17CancellationPending') {
+                $q->whereIn('lead_sales.status', ['1.02'])
+                    ->where('lead_sales.old_billing_cycle', 17)
+                    ->where('lead_sales.cancel_status', 'Not Cancelled')
+                    ->where('lead_sales.lead_type', 'HomeWifi');
+            }
+            elseif ($status == 'TotalActive') {
+                $q->whereIn('lead_sales.status', ['1.02'])
+                ->where('lead_sales.lead_type', 'HomeWifi');
+                    // ->where('lead_sales.id_type', 'same_id');
+            }
+            elseif ($status == 'TotalActivePostpaid') {
+                $q->whereIn('lead_sales.status', ['1.02'])
+                ->whereIn('lead_sales.lead_type', ['P2P','MNP']);
+                    // ->where('lead_sales.id_type', 'same_id');
             }
         })
             // ->whereIn('lead_sales.status', ['1.05', '1.08'])

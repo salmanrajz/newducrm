@@ -1,15 +1,24 @@
-@extends('layouts/contentLayoutMaster')
+@extends('layouts.simple.master')
+@section('title', 'Data Forms')
 
-@section('title', 'Roles')
+@section('css')
+@endsection
+
+@section('style')
+@endsection
+
+@section('breadcrumb-title')
+<h3>Data Forms</h3>
+@endsection
+
+@section('breadcrumb-items')
+<li class="breadcrumb-item">Home Wifi</li>
+<li class="breadcrumb-item active">Data Forms</li>
+@endsection
 
 @section('content')
-<!-- Basic Horizontal form layout section start -->
-
-<!-- Basic Horizontal form layout section end -->
-
-<!-- Basic Vertical form layout section start -->
-<section id="basic-vertical-layouts">
-  <div class="row">
+<div class="container-fluid">
+    <div class="row">
 
     <div class="col-md-6 col-12">
       <div class="card">
@@ -70,15 +79,9 @@
       </div>
     </div>
   </div>
-</section>
-<!-- Basic Vertical form layout section end -->
+</div>
+@endsection
 
-<!-- Basic multiple Column Form section start -->
+@section('script')
 
-
-@endsection<!-- Basic Floating Label Form section end -->
-@section('page-script')
-  <!-- Page js files -->
-  <script src="{{ asset(mix('js/custom.js'))}}"></script>
-  <!-- Page js files -->
 @endsection

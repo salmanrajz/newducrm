@@ -994,6 +994,20 @@ $('#address').change(function () {
 });
 
 //
+$('#latest_status').change(function () {
+ if (this.value == 'Cancelled') {
+        $("#commisionDiv").show();
+        // $("#btnEntry").prop('disabled', false);
+        // $('#' + btn).prop('disabled', true);
+        //
+    } else {
+        $("#commisionDiv").hide();
+
+        // $(".showme").show();
+        // $("#btnEntry").prop('disabled', true);
+        // $("#InlineRadioCheck").hide();
+    }
+});
 window.LoadMNPReport = function (url, status, loadingUrl) {
     var cc = $("#cc").val();
     $.ajax({
@@ -1318,6 +1332,13 @@ window.check_location_url = function () {
     }
 
 }
+
+$("#UpdateNum").on('click', function () {
+    // alert("Working");
+    $('#contact_number').removeAttr('readonly');
+    $("#contact_number").val('');
+    $("#contact_number").focus();
+});
 //
 $('#CategoryType').on('change', function () {
     var selected = $(this).val();
@@ -1399,3 +1420,114 @@ window.UnMaskNumber = function (MaskUrl,id,eye) {
         }
     });
 }
+
+//
+ $('#secretcode').select2({
+     placeholder: 'Please Search Secret Code',
+     // dropdownParent: $('#AddSkill'),
+     // tags: true,
+     minimumInputLength: 2,
+     ajax: {
+         url: '/admin/search-number?id=' + $("#secretcode").val(),
+         dataType: 'json',
+         delay: 250,
+         processResults: function (data) {
+             return {
+                 results: $.map(data, function (item) {
+                     return {
+                         text: item.number,
+                         id: item.number
+                     }
+                     // alert(item.number);
+                 })
+             };
+         }
+     }
+ });
+//
+ $('#searchlead').select2({
+     placeholder: 'Please Search Lead # CT',
+     // dropdownParent: $('#AddSkill'),
+     // tags: true,
+     minimumInputLength: 2,
+     ajax: {
+         url: '/admin/search-lead-number?id=' + $("#searchlead").val(),
+         dataType: 'json',
+         delay: 250,
+         processResults: function (data) {
+             return {
+                 results: $.map(data, function (item) {
+                     return {
+                         text: item.number,
+                         id: item.number
+                     }
+                     // alert(item.number);
+                 })
+             };
+         }
+     }
+ });
+
+ window.search_number_id = function(number) {
+     // alert(form);
+     var url = $("#number_search_url").val();
+     console.log(url);
+     console.log(number);
+     // var number = $("#check").val();
+     // var rizwan = document.getElementById(form);
+     $.ajax({
+         type: "POST",
+         url: url,
+         data: {
+             number,
+             number
+         }, // Data sent to server, a set of key/value pairs (i.e. form fields and values)
+         // contentType: false, // The content type used when sending data to the server.
+         // cache: false, // To unable request pages to be cached
+         // processData: false,
+         beforeSend: function () {
+             // $("#request_login" + id).show();
+             // // $(".request_call").hide();
+             // $('#' + btn).prop('disabled', true);
+             $("#loading_num").show();
+         },
+         success: function (msg) {
+             //    alert(msg);
+             $("#mylead").html(msg);
+             // if (msg == 1) {
+             //     $("#loading_num").hide();
+             //     location.reload();
+             // } else {
+             //     alert("Something wrong");
+             // }
+             //  var k = msg.split('###');
+             // // console.log(k[3] + ' ' + $k[4]);
+             //  $("#name").val(k[1]);
+             //  $("#CustomerNameAct").val(k[1]);
+             //  $("#emirate_id").val(k[2]);
+             //  $("#activation_emirate_expiry").val(k[2]);
+             //  $("#application_date").val(k[3] + ' ' + k[4]);
+         }
+         // }
+     });
+     // }
+     // }));
+ }
+
+
+ $("#secretcode").on("change", function () {
+     // console.log($(this).val());
+     // console.log()
+     // console.log()
+     search_number_id($(this).val());
+     // console.log($(this).val());
+ });
+ $("#searchlead").on("change", function () {
+     // console.log($(this).val());
+     // console.log()
+     // console.log()
+     search_number_id($(this).val());
+     // console.log($(this).val());
+ });
+
+

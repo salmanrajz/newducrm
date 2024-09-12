@@ -4,8 +4,10 @@ namespace App\Http\Controllers;
 
 use App\Models\agenttls;
 use App\Models\call_center;
+use App\Models\lead_sale;
 use App\Models\MonthlyAch;
 use App\Models\plan;
+use App\Models\WhatsAppMnpBank;
 use App\Models\product;
 use App\Models\User;
 use App\Models\users_docs;
@@ -778,5 +780,138 @@ class AdminController extends Controller
         return response()->json(['success' => 'Added new records, please wait meanwhile we are redirecting you....!!!']);
     }
     //
+    public function checksecretcode(Request $request){
+        // return "Zone";
+        return view('admin.role.checksecretcode');
+    }
+    //
+    public function checkleadnumber(Request $request){
+        // return "Zone";
+        return view('admin.role.searchlead');
+    }
+    //
+    public function searchnumber(Request $request){
+        // return "zoom";
+        $data = [];
+        if ($request->has('q')) {
+            $search = $request->q;
+            // $data = whatsapp
+             $data = WhatsAppMnpBank::select('whats_app_mnp_banks_1.number_id as number')
+            ->where('number_id', 'LIKE', "%$search%")
+            ->get();
+            // $data = numberdetail::select('numberdetails.*')
+            // ->wherein('channel_type', ['TTF', 'ExpressDial', 'MWH', 'Ideacorp'])
+            // ->first();
+            // if ($data->region != 'Pak') {
+            //     $data = numberdetail::select(DB::raw("CONCAT(number,' ', status, ' ', call_center,' ',passcode,' ',type,' ',channel_type ) as number"))
+            //     ->where('number', 'LIKE', "%$search%")
+            //     ->wherein('channel_type', ['TTF', 'ExpressDial', 'MWH', 'Ideacorp'])
+            //     ->get();
+            // } else {
+            //     $data = numberdetail::select(DB::raw("CONCAT(number,' ', status, ' ', call_center,' ',passcode,' ',type,' :Region => ',region,' ',channel_type ) as number"))
+            //     ->where('number', 'LIKE', "%$search%")
+            //     ->wherein('channel_type', ['TTF', 'ExpressDial', 'MWH', 'Ideacorp'])
+            //     ->get();
+            // }
+            // if($data->count() > 0){}
+            // $data = numberdetail::select(DB::raw("CONCAT(number,' ', status, ' ', call_center,' ',passcode,' ',type ) as number"))
+            //     ->where('number', 'LIKE', "%$search%")
+            //     ->wherein('channel_type', ['TTF','ExpressDial','MWH','Ideacorp'])
+            //     ->get();
+        }
+        return response()->json($data);
+    }
+    //
+    public function searchleadnumber(Request $request){
+        // return "zoom";
+        $data = [];
+        if ($request->has('q')) {
+            $search = $request->q;
+            // $data = whatsapp
+            $data = lead_sale::select(\DB::raw("CONCAT(customer_number, ' ' , lead_no, ' ', status_name) as number"))
+            ->Join(
+                'status_codes',
+                'status_codes.status_code',
+                '=',
+                'lead_sales.status'
+            )
+            ->where('lead_no', 'LIKE', "%$search%")->get();
+            //  $data = lead_sales::select('whats_app_mnp_banks_1.number_id as number')
+            // ->where('number_id', 'LIKE', "%$search%")
+            // ->get();
+            // $data = numberdetail::select('numberdetails.*')
+            // ->wherein('channel_type', ['TTF', 'ExpressDial', 'MWH', 'Ideacorp'])
+            // ->first();
+            // if ($data->region != 'Pak') {
+            //     $data = numberdetail::select(DB::raw("CONCAT(number,' ', status, ' ', call_center,' ',passcode,' ',type,' ',channel_type ) as number"))
+            //     ->where('number', 'LIKE', "%$search%")
+            //     ->wherein('channel_type', ['TTF', 'ExpressDial', 'MWH', 'Ideacorp'])
+            //     ->get();
+            // } else {
+            //     $data = numberdetail::select(DB::raw("CONCAT(number,' ', status, ' ', call_center,' ',passcode,' ',type,' :Region => ',region,' ',channel_type ) as number"))
+            //     ->where('number', 'LIKE', "%$search%")
+            //     ->wherein('channel_type', ['TTF', 'ExpressDial', 'MWH', 'Ideacorp'])
+            //     ->get();
+            // }
+            // if($data->count() > 0){}
+            // $data = numberdetail::select(DB::raw("CONCAT(number,' ', status, ' ', call_center,' ',passcode,' ',type ) as number"))
+            //     ->where('number', 'LIKE', "%$search%")
+            //     ->wherein('channel_type', ['TTF','ExpressDial','MWH','Ideacorp'])
+            //     ->get();
+        }
+        return response()->json($data);
+    }
+    //
+    public function searchnumberoriginal(Request $request){
+        // return $request;
+        // return "IM MAGIC";
+        $data = WhatsAppMnpBank::select('whats_app_mnp_banks_1.*')
+        ->where('number_id',$request->number)
+        ->first();
+        return view('load_data.secret-data-load',compact('data'));
+
+    }
+    //
+    public function number_original_lead(Request $request){
+        // return $request;
+        // return "IM MAGIC";
+        $heading = 'Load Lead Number';
+        $d = explode(' ',$request->number);
+        $data = lead_sale::select('lead_sales.customer_name', 'lead_sales.id', 'lead_sales.email', 'lead_sales.customer_number', 'status_codes.status_name as status', 'home_wifi_plans.name as plan_name', 'lead_sales.lead_no', 'lead_sales.created_at', 'lead_sales.updated_at', 'lead_sales.reff_id', 'lead_sales.work_order_num', 'users.name as agent_name', 'lead_sales.lead_type')
+            // ->where('lead_sales.lead_type', '')
+            ->LeftJoin(
+                'home_wifi_plans',
+                'home_wifi_plans.id',
+                'lead_sales.plans'
+            )
+            ->Join(
+                'status_codes',
+                'status_codes.status_code',
+                'lead_sales.status'
+            )
+            ->Join(
+                'users',
+                'users.id',
+                'lead_sales.saler_id'
+            )
+            // ->when($status, function ($q) use ($status) {
+            //     if ($status == 'ActiveLeads') {
+            //         $q->where('lead_sales.status', '1.02');
+            //     } elseif ($status == 'InProcessLead') {
+            //         $q->whereIn('lead_sales.status', ['1.10', '1.05', '1.07', '1.08']);
+            //     } elseif ($status == 'PendingLeads') {
+            //         $q->whereIn('lead_sales.status', ['1.01', '1.12']);
+            //     } elseif ($status == 'RejectLeads') {
+            //         $q->whereIn('lead_sales.status', ['1.15']);
+            //     }
+            // })
+            ->where('lead_sales.lead_no', $d[1])
+            // ->where('users.agent_code', auth()->user()->agent_code)
+            ->get();
+        return view('load_data.lead-data-load', compact('heading', 'data'));
+
+    }
 
 }
+
+

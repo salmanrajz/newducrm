@@ -100,6 +100,11 @@
     ShowCordDashboard('{{route('verification.LoadData')}}','homepage','{{asset('assets/images/ajax-loader.gif')}}','LoadData');
 </script>
 @endrole
+@role('Canceller')
+<script>
+    ShowCordDashboard('{{route('canceller.LoadData')}}','homepage','{{asset('assets/images/ajax-loader.gif')}}','LoadData');
+</script>
+@endrole
 {{-- @role('MainAdmin')
 <script>
     ShowCordDashboard('{{route('admin.LoadData')}}','{{asset('assets/images/ajax-loader.gif')}}');
