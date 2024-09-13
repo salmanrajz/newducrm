@@ -61,6 +61,11 @@ Route::group(['prefix' => 'admin', 'middleware' => ['auth', '2fa']], function ()
     Route::post('search-number-original', [AdminController::class, 'searchnumberoriginal'])->name('searchnumberoriginal');
     // Route::post('number-search-original', 'AjaxController@number_original_lead')->name('number.original.lead');
 
+    Route::get('NumberToCode', [AdminController::class, 'NumberToCode'])->name('NumberToCode');
+    Route::get('search-code', [AdminController::class, 'searchcode'])->name('searchcode');
+    Route::post('search-code-original', [AdminController::class, 'searchcodeoriginal'])->name('searchcodeoriginal');
+    // Route::post('number-search-original', 'AjaxController@number_original_lead')->name('number.original.lead');
+
     Route::get('checkleadnumber', [AdminController::class, 'checkleadnumber'])->name('checkleadnumber');
     Route::get('search-lead-number', [AdminController::class, 'searchleadnumber'])->name('searchleadnumber');
     Route::post('search-lead-number-original', [AdminController::class, 'number_original_lead'])->name('number_original_lead');
@@ -73,6 +78,8 @@ Route::group(['prefix' => 'admin', 'middleware' => ['auth', '2fa']], function ()
     //
     Route::get('role', [AdminController::class, 'role'])->name('role');
     Route::post('role-add', [AdminController::class, 'roleadd'])->name('role.add');
+    Route::get('AddSecretCode', [AdminController::class, 'AddSecretCodeForm'])->name('AddSecretCodeForm');
+    Route::post('GenerateCode', [AdminController::class, 'GenerateCode'])->name('GenerateCode');
 
     //
 });

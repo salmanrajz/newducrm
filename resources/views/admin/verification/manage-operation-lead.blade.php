@@ -220,6 +220,16 @@
                                             accept="audio/*"> </div>
 
                                 </div>
+                                <div class="col-8 mt-5">
+                                    <div class="mb-1">
+                                        <label class="form-label" for="first-name-icon">Remarks</label>
+                                        <div class="input-group input-group-merge">
+                                            <span class="input-group-text"><i data-feather="user"></i></span>
+                                            <input type="text" name="remarks" id="remarks" class="form-control"
+                                                value="{{ $data->remarks }}">
+                                        </div>
+                                    </div>
+                                </div>
                                 @if($data->lead_type == 'HomeWifi')
                                 <div class="col-8">
                                     <div class="mb-1">
@@ -273,16 +283,7 @@
                         </div>
                     </div>
                                 @endif
-                                <div class="col-8 mt-4">
-                                    <div class="mb-1">
-                                        <label class="form-label" for="first-name-icon">Remarks</label>
-                                        <div class="input-group input-group-merge">
-                                            <span class="input-group-text"><i data-feather="user"></i></span>
-                                            <input type="text" name="remarks" id="remarks" class="form-control"
-                                                value="{{ $data->remarks }}">
-                                        </div>
-                                    </div>
-                                </div>
+
                                 <div class="col-12 mb-2">
                                     <div class="alert alert-danger print-error-msg" style="display:none">
                                         <ul></ul>

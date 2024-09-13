@@ -6,8 +6,8 @@
 */
 @font-face {
     font-family: FontAwesome;
-    src: url(https://cuba.test/build/assets/fontawesome-webfont-7bfcab6d.eot);
-    src: url(https://cuba.test/build/assets/fontawesome-webfont-7bfcab6d.eot) format("embedded-opentype"), url(https://cuba.test/build/assets/fontawesome-webfont-2adefcbc.woff2) format("woff2"), url(https://cuba.test/build/assets/fontawesome-webfont-ba0c59de.woff) format("woff"), url(https://cuba.test/build/assets/fontawesome-webfont-aa58f33f.ttf) format("truetype"), url(https://cuba.test/build/assets/fontawesome-webfont-fc378232.svg) format("svg");
+    src: url(https://app.vocus.ae/build/assets/fontawesome-webfont-7bfcab6d.eot);
+    src: url(https://app.vocus.ae/build/assets/fontawesome-webfont-7bfcab6d.eot) format("embedded-opentype"), url(https://app.vocus.ae/build/assets/fontawesome-webfont-2adefcbc.woff2) format("woff2"), url(https://app.vocus.ae/build/assets/fontawesome-webfont-ba0c59de.woff) format("woff"), url(https://app.vocus.ae/build/assets/fontawesome-webfont-aa58f33f.ttf) format("truetype"), url(https://app.vocus.ae/build/assets/fontawesome-webfont-fc378232.svg) format("svg");
     font-weight: 400;
     font-style: normal
 }
@@ -3044,8 +3044,8 @@
 
 @font-face {
     font-family: slick;
-    src: url(https://cuba.test/build/assets/slick-06d80cf0.eot);
-    src: url(https://cuba.test/build/assets/slick-06d80cf0.eot)format("embedded-opentype"), url(https://cuba.test/build/assets/slick-26726bac.woff) format("woff"), url(https://cuba.test/build/assets/slick-37bc99cf.ttf) format("truetype"), url(https://cuba.test/build/assets/slick-12459f22.svg) format("svg");
+    src: url(https://app.vocus.ae/build/assets/slick-06d80cf0.eot);
+    src: url(https://app.vocus.ae/build/assets/slick-06d80cf0.eot)format("embedded-opentype"), url(https://app.vocus.ae/build/assets/slick-26726bac.woff) format("woff"), url(https://app.vocus.ae/build/assets/slick-37bc99cf.ttf) format("truetype"), url(https://app.vocus.ae/build/assets/slick-12459f22.svg) format("svg");
     font-weight: 400;
     font-style: normal
 }
@@ -3271,8 +3271,8 @@
 */
 @font-face {
     font-family: icofont;
-    src: url(https://cuba.test/build/assets/icofont-e4cbd167.eot);
-    src: url(https://cuba.test/build/assets/icofont-e4cbd167.eot)format("embedded-opentype"), url(https://cuba.test/build/assets/icofont-ac2e76e0.ttf) format("truetype"), url(https://cuba.test/build/assets/icofont-00f9608b.woff?v=1.0.0-beta) format("woff"), url(https://cuba.test/build/assets/icofont-84d98252.svg?v=1.0.0-beta#icofont) format("svg");
+    src: url(https://app.vocus.ae/build/assets/icofont-e4cbd167.eot);
+    src: url(https://app.vocus.ae/build/assets/icofont-e4cbd167.eot)format("embedded-opentype"), url(https://app.vocus.ae/build/assets/icofont-ac2e76e0.ttf) format("truetype"), url(https://app.vocus.ae/build/assets/icofont-00f9608b.woff?v=1.0.0-beta) format("woff"), url(https://app.vocus.ae/build/assets/icofont-84d98252.svg?v=1.0.0-beta#icofont) format("svg");
     font-weight: 400;
     font-style: normal
 }
@@ -11787,8 +11787,8 @@
 
 @font-face {
     font-family: themify;
-    src: url(https://cuba.test/build/assets/themify-dff415da.eot?-fvbane);
-    src: url(https://cuba.test/build/assets/themify-dff415da.eot?#iefix-fvbane) format("embedded-opentype"), url(https://cuba.test/build/assets/themify-0db5c5a1.woff?-fvbane) format("woff"), url(https://cuba.test/build/assets/themify-350663a4.ttf?-fvbane) format("truetype"), url(https://cuba.test/build/assets/themify-2e242102.svg?-fvbane#themify) format("svg");
+    src: url(https://app.vocus.ae/build/assets/themify-dff415da.eot?-fvbane);
+    src: url(https://app.vocus.ae/build/assets/themify-dff415da.eot?#iefix-fvbane) format("embedded-opentype"), url(https://app.vocus.ae/build/assets/themify-0db5c5a1.woff?-fvbane) format("woff"), url(https://app.vocus.ae/build/assets/themify-350663a4.ttf?-fvbane) format("truetype"), url(https://app.vocus.ae/build/assets/themify-2e242102.svg?-fvbane#themify) format("svg");
     font-weight: 400;
     font-style: normal
 }
@@ -28219,2051 +28219,2051 @@ fieldset:disabled .btn {
 }
 
 .flag-icon-es-ct {
-    background-image: url(https://cuba.test/build/assets/es-ct-2f51e487.svg)
+    background-image: url(https://app.vocus.ae/build/assets/es-ct-2f51e487.svg)
 }
 
 .flag-icon-es-ct.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/es-ct-2f51e487.svg)
+    background-image: url(https://app.vocus.ae/build/assets/es-ct-2f51e487.svg)
 }
 
 .flag-icon-eu {
-    background-image: url(https://cuba.test/build/assets/eu-2d65d182.svg)
+    background-image: url(https://app.vocus.ae/build/assets/eu-2d65d182.svg)
 }
 
 .flag-icon-eu.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/eu-2d65d182.svg)
+    background-image: url(https://app.vocus.ae/build/assets/eu-2d65d182.svg)
 }
 
 .flag-icon-gb-eng {
-    background-image: url(https://cuba.test/build/assets/gb-eng-172429ee.svg)
+    background-image: url(https://app.vocus.ae/build/assets/gb-eng-172429ee.svg)
 }
 
 .flag-icon-gb-eng.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/gb-eng-172429ee.svg)
+    background-image: url(https://app.vocus.ae/build/assets/gb-eng-172429ee.svg)
 }
 
 .flag-icon-gb-nir {
-    background-image: url(https://cuba.test/build/assets/gb-nir-8e2f8c4f.svg)
+    background-image: url(https://app.vocus.ae/build/assets/gb-nir-8e2f8c4f.svg)
 }
 
 .flag-icon-gb-nir.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/gb-nir-8e2f8c4f.svg)
+    background-image: url(https://app.vocus.ae/build/assets/gb-nir-8e2f8c4f.svg)
 }
 
 .flag-icon-gb-sct {
-    background-image: url(https://cuba.test/build/assets/gb-sct-5da688c9.svg)
+    background-image: url(https://app.vocus.ae/build/assets/gb-sct-5da688c9.svg)
 }
 
 .flag-icon-gb-sct.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/gb-sct-5da688c9.svg)
+    background-image: url(https://app.vocus.ae/build/assets/gb-sct-5da688c9.svg)
 }
 
 .flag-icon-gb-wls {
-    background-image: url(https://cuba.test/build/assets/gb-wls-f7444312.svg)
+    background-image: url(https://app.vocus.ae/build/assets/gb-wls-f7444312.svg)
 }
 
 .flag-icon-gb-wls.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/gb-wls-f7444312.svg)
+    background-image: url(https://app.vocus.ae/build/assets/gb-wls-f7444312.svg)
 }
 
 .flag-icon-un {
-    background-image: url(https://cuba.test/build/assets/un-0ce3c8bb.svg)
+    background-image: url(https://app.vocus.ae/build/assets/un-0ce3c8bb.svg)
 }
 
 .flag-icon-un.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/un-0ce3c8bb.svg)
+    background-image: url(https://app.vocus.ae/build/assets/un-0ce3c8bb.svg)
 }
 
 .flag-icon-ad {
-    background-image: url(https://cuba.test/build/assets/ad-b8f66c80.svg)
+    background-image: url(https://app.vocus.ae/build/assets/ad-b8f66c80.svg)
 }
 
 .flag-icon-ad.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/ad-b8f66c80.svg)
+    background-image: url(https://app.vocus.ae/build/assets/ad-b8f66c80.svg)
 }
 
 .flag-icon-ae {
-    background-image: url(https://cuba.test/build/assets/ae-327bf467.svg)
+    background-image: url(https://app.vocus.ae/build/assets/ae-327bf467.svg)
 }
 
 .flag-icon-ae.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/ae-327bf467.svg)
+    background-image: url(https://app.vocus.ae/build/assets/ae-327bf467.svg)
 }
 
 .flag-icon-af {
-    background-image: url(https://cuba.test/build/assets/af-0f4a6a68.svg)
+    background-image: url(https://app.vocus.ae/build/assets/af-0f4a6a68.svg)
 }
 
 .flag-icon-af.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/af-0f4a6a68.svg)
+    background-image: url(https://app.vocus.ae/build/assets/af-0f4a6a68.svg)
 }
 
 .flag-icon-ag {
-    background-image: url(https://cuba.test/build/assets/ag-d62d9cb5.svg)
+    background-image: url(https://app.vocus.ae/build/assets/ag-d62d9cb5.svg)
 }
 
 .flag-icon-ag.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/ag-d62d9cb5.svg)
+    background-image: url(https://app.vocus.ae/build/assets/ag-d62d9cb5.svg)
 }
 
 .flag-icon-ai {
-    background-image: url(https://cuba.test/build/assets/ai-619d2b6f.svg)
+    background-image: url(https://app.vocus.ae/build/assets/ai-619d2b6f.svg)
 }
 
 .flag-icon-ai.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/ai-619d2b6f.svg)
+    background-image: url(https://app.vocus.ae/build/assets/ai-619d2b6f.svg)
 }
 
 .flag-icon-al {
-    background-image: url(https://cuba.test/build/assets/al-3bc41f68.svg)
+    background-image: url(https://app.vocus.ae/build/assets/al-3bc41f68.svg)
 }
 
 .flag-icon-al.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/al-3bc41f68.svg)
+    background-image: url(https://app.vocus.ae/build/assets/al-3bc41f68.svg)
 }
 
 .flag-icon-am {
-    background-image: url(https://cuba.test/build/assets/am-50743f38.svg)
+    background-image: url(https://app.vocus.ae/build/assets/am-50743f38.svg)
 }
 
 .flag-icon-am.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/am-50743f38.svg)
+    background-image: url(https://app.vocus.ae/build/assets/am-50743f38.svg)
 }
 
 .flag-icon-ao {
-    background-image: url(https://cuba.test/build/assets/ao-348830a9.svg)
+    background-image: url(https://app.vocus.ae/build/assets/ao-348830a9.svg)
 }
 
 .flag-icon-ao.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/ao-348830a9.svg)
+    background-image: url(https://app.vocus.ae/build/assets/ao-348830a9.svg)
 }
 
 .flag-icon-aq {
-    background-image: url(https://cuba.test/build/assets/aq-34de96f7.svg)
+    background-image: url(https://app.vocus.ae/build/assets/aq-34de96f7.svg)
 }
 
 .flag-icon-aq.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/aq-34de96f7.svg)
+    background-image: url(https://app.vocus.ae/build/assets/aq-34de96f7.svg)
 }
 
 .flag-icon-ar {
-    background-image: url(https://cuba.test/build/assets/ar-741809e1.svg)
+    background-image: url(https://app.vocus.ae/build/assets/ar-741809e1.svg)
 }
 
 .flag-icon-ar.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/ar-741809e1.svg)
+    background-image: url(https://app.vocus.ae/build/assets/ar-741809e1.svg)
 }
 
 .flag-icon-as {
-    background-image: url(https://cuba.test/build/assets/as-8ff61247.svg)
+    background-image: url(https://app.vocus.ae/build/assets/as-8ff61247.svg)
 }
 
 .flag-icon-as.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/as-8ff61247.svg)
+    background-image: url(https://app.vocus.ae/build/assets/as-8ff61247.svg)
 }
 
 .flag-icon-at {
-    background-image: url(https://cuba.test/build/assets/at-a0af7b25.svg)
+    background-image: url(https://app.vocus.ae/build/assets/at-a0af7b25.svg)
 }
 
 .flag-icon-at.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/at-a0af7b25.svg)
+    background-image: url(https://app.vocus.ae/build/assets/at-a0af7b25.svg)
 }
 
 .flag-icon-au {
-    background-image: url(https://cuba.test/build/assets/au-1b50a800.svg)
+    background-image: url(https://app.vocus.ae/build/assets/au-1b50a800.svg)
 }
 
 .flag-icon-au.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/au-1b50a800.svg)
+    background-image: url(https://app.vocus.ae/build/assets/au-1b50a800.svg)
 }
 
 .flag-icon-aw {
-    background-image: url(https://cuba.test/build/assets/aw-94f33e5c.svg)
+    background-image: url(https://app.vocus.ae/build/assets/aw-94f33e5c.svg)
 }
 
 .flag-icon-aw.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/aw-94f33e5c.svg)
+    background-image: url(https://app.vocus.ae/build/assets/aw-94f33e5c.svg)
 }
 
 .flag-icon-ax {
-    background-image: url(https://cuba.test/build/assets/ax-a0a803ff.svg)
+    background-image: url(https://app.vocus.ae/build/assets/ax-a0a803ff.svg)
 }
 
 .flag-icon-ax.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/ax-a0a803ff.svg)
+    background-image: url(https://app.vocus.ae/build/assets/ax-a0a803ff.svg)
 }
 
 .flag-icon-az {
-    background-image: url(https://cuba.test/build/assets/az-647e6236.svg)
+    background-image: url(https://app.vocus.ae/build/assets/az-647e6236.svg)
 }
 
 .flag-icon-az.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/az-647e6236.svg)
+    background-image: url(https://app.vocus.ae/build/assets/az-647e6236.svg)
 }
 
 .flag-icon-ba {
-    background-image: url(https://cuba.test/build/assets/ba-cf0cd8cd.svg)
+    background-image: url(https://app.vocus.ae/build/assets/ba-cf0cd8cd.svg)
 }
 
 .flag-icon-ba.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/ba-cf0cd8cd.svg)
+    background-image: url(https://app.vocus.ae/build/assets/ba-cf0cd8cd.svg)
 }
 
 .flag-icon-bb {
-    background-image: url(https://cuba.test/build/assets/bb-aa11235b.svg)
+    background-image: url(https://app.vocus.ae/build/assets/bb-aa11235b.svg)
 }
 
 .flag-icon-bb.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/bb-aa11235b.svg)
+    background-image: url(https://app.vocus.ae/build/assets/bb-aa11235b.svg)
 }
 
 .flag-icon-bd {
-    background-image: url(https://cuba.test/build/assets/bd-c97a362f.svg)
+    background-image: url(https://app.vocus.ae/build/assets/bd-c97a362f.svg)
 }
 
 .flag-icon-bd.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/bd-c97a362f.svg)
+    background-image: url(https://app.vocus.ae/build/assets/bd-c97a362f.svg)
 }
 
 .flag-icon-be {
-    background-image: url(https://cuba.test/build/assets/be-d1b8dae6.svg)
+    background-image: url(https://app.vocus.ae/build/assets/be-d1b8dae6.svg)
 }
 
 .flag-icon-be.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/be-d1b8dae6.svg)
+    background-image: url(https://app.vocus.ae/build/assets/be-d1b8dae6.svg)
 }
 
 .flag-icon-bf {
-    background-image: url(https://cuba.test/build/assets/bf-239c939c.svg)
+    background-image: url(https://app.vocus.ae/build/assets/bf-239c939c.svg)
 }
 
 .flag-icon-bf.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/bf-239c939c.svg)
+    background-image: url(https://app.vocus.ae/build/assets/bf-239c939c.svg)
 }
 
 .flag-icon-bg {
-    background-image: url(https://cuba.test/build/assets/bg-211dd587.svg)
+    background-image: url(https://app.vocus.ae/build/assets/bg-211dd587.svg)
 }
 
 .flag-icon-bg.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/bg-211dd587.svg)
+    background-image: url(https://app.vocus.ae/build/assets/bg-211dd587.svg)
 }
 
 .flag-icon-bh {
-    background-image: url(https://cuba.test/build/assets/bh-e4fbc994.svg)
+    background-image: url(https://app.vocus.ae/build/assets/bh-e4fbc994.svg)
 }
 
 .flag-icon-bh.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/bh-e4fbc994.svg)
+    background-image: url(https://app.vocus.ae/build/assets/bh-e4fbc994.svg)
 }
 
 .flag-icon-bi {
-    background-image: url(https://cuba.test/build/assets/bi-e0f5c657.svg)
+    background-image: url(https://app.vocus.ae/build/assets/bi-e0f5c657.svg)
 }
 
 .flag-icon-bi.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/bi-e0f5c657.svg)
+    background-image: url(https://app.vocus.ae/build/assets/bi-e0f5c657.svg)
 }
 
 .flag-icon-bj {
-    background-image: url(https://cuba.test/build/assets/bj-d4eda6db.svg)
+    background-image: url(https://app.vocus.ae/build/assets/bj-d4eda6db.svg)
 }
 
 .flag-icon-bj.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/bj-d4eda6db.svg)
+    background-image: url(https://app.vocus.ae/build/assets/bj-d4eda6db.svg)
 }
 
 .flag-icon-bl {
-    background-image: url(https://cuba.test/build/assets/bl-907c95fc.svg)
+    background-image: url(https://app.vocus.ae/build/assets/bl-907c95fc.svg)
 }
 
 .flag-icon-bl.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/bl-907c95fc.svg)
+    background-image: url(https://app.vocus.ae/build/assets/bl-907c95fc.svg)
 }
 
 .flag-icon-bm {
-    background-image: url(https://cuba.test/build/assets/bm-de3b1b3a.svg)
+    background-image: url(https://app.vocus.ae/build/assets/bm-de3b1b3a.svg)
 }
 
 .flag-icon-bm.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/bm-de3b1b3a.svg)
+    background-image: url(https://app.vocus.ae/build/assets/bm-de3b1b3a.svg)
 }
 
 .flag-icon-bn {
-    background-image: url(https://cuba.test/build/assets/bn-bcc7c315.svg)
+    background-image: url(https://app.vocus.ae/build/assets/bn-bcc7c315.svg)
 }
 
 .flag-icon-bn.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/bn-bcc7c315.svg)
+    background-image: url(https://app.vocus.ae/build/assets/bn-bcc7c315.svg)
 }
 
 .flag-icon-bo {
-    background-image: url(https://cuba.test/build/assets/bo-20cd76c2.svg)
+    background-image: url(https://app.vocus.ae/build/assets/bo-20cd76c2.svg)
 }
 
 .flag-icon-bo.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/bo-20cd76c2.svg)
+    background-image: url(https://app.vocus.ae/build/assets/bo-20cd76c2.svg)
 }
 
 .flag-icon-bq {
-    background-image: url(https://cuba.test/build/assets/bq-f71e86fe.svg)
+    background-image: url(https://app.vocus.ae/build/assets/bq-f71e86fe.svg)
 }
 
 .flag-icon-bq.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/bq-f71e86fe.svg)
+    background-image: url(https://app.vocus.ae/build/assets/bq-f71e86fe.svg)
 }
 
 .flag-icon-br {
-    background-image: url(https://cuba.test/build/assets/br-63f3538b.svg)
+    background-image: url(https://app.vocus.ae/build/assets/br-63f3538b.svg)
 }
 
 .flag-icon-br.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/br-63f3538b.svg)
+    background-image: url(https://app.vocus.ae/build/assets/br-63f3538b.svg)
 }
 
 .flag-icon-bs {
-    background-image: url(https://cuba.test/build/assets/bs-ec7d0199.svg)
+    background-image: url(https://app.vocus.ae/build/assets/bs-ec7d0199.svg)
 }
 
 .flag-icon-bs.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/bs-ec7d0199.svg)
+    background-image: url(https://app.vocus.ae/build/assets/bs-ec7d0199.svg)
 }
 
 .flag-icon-bt {
-    background-image: url(https://cuba.test/build/assets/bt-e121fd85.svg)
+    background-image: url(https://app.vocus.ae/build/assets/bt-e121fd85.svg)
 }
 
 .flag-icon-bt.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/bt-e121fd85.svg)
+    background-image: url(https://app.vocus.ae/build/assets/bt-e121fd85.svg)
 }
 
 .flag-icon-bv {
-    background-image: url(https://cuba.test/build/assets/bv-419b84c3.svg)
+    background-image: url(https://app.vocus.ae/build/assets/bv-419b84c3.svg)
 }
 
 .flag-icon-bv.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/bv-419b84c3.svg)
+    background-image: url(https://app.vocus.ae/build/assets/bv-419b84c3.svg)
 }
 
 .flag-icon-bw {
-    background-image: url(https://cuba.test/build/assets/bw-e805bc58.svg)
+    background-image: url(https://app.vocus.ae/build/assets/bw-e805bc58.svg)
 }
 
 .flag-icon-bw.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/bw-e805bc58.svg)
+    background-image: url(https://app.vocus.ae/build/assets/bw-e805bc58.svg)
 }
 
 .flag-icon-by {
-    background-image: url(https://cuba.test/build/assets/by-9935c26a.svg)
+    background-image: url(https://app.vocus.ae/build/assets/by-9935c26a.svg)
 }
 
 .flag-icon-by.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/by-9935c26a.svg)
+    background-image: url(https://app.vocus.ae/build/assets/by-9935c26a.svg)
 }
 
 .flag-icon-bz {
-    background-image: url(https://cuba.test/build/assets/bz-bd75a7f3.svg)
+    background-image: url(https://app.vocus.ae/build/assets/bz-bd75a7f3.svg)
 }
 
 .flag-icon-bz.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/bz-bd75a7f3.svg)
+    background-image: url(https://app.vocus.ae/build/assets/bz-bd75a7f3.svg)
 }
 
 .flag-icon-ca {
-    background-image: url(https://cuba.test/build/assets/ca-24c38d3f.svg)
+    background-image: url(https://app.vocus.ae/build/assets/ca-24c38d3f.svg)
 }
 
 .flag-icon-ca.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/ca-24c38d3f.svg)
+    background-image: url(https://app.vocus.ae/build/assets/ca-24c38d3f.svg)
 }
 
 .flag-icon-cc {
-    background-image: url(https://cuba.test/build/assets/cc-01ffbd27.svg)
+    background-image: url(https://app.vocus.ae/build/assets/cc-01ffbd27.svg)
 }
 
 .flag-icon-cc.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/cc-01ffbd27.svg)
+    background-image: url(https://app.vocus.ae/build/assets/cc-01ffbd27.svg)
 }
 
 .flag-icon-cd {
-    background-image: url(https://cuba.test/build/assets/cd-d755e707.svg)
+    background-image: url(https://app.vocus.ae/build/assets/cd-d755e707.svg)
 }
 
 .flag-icon-cd.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/cd-d755e707.svg)
+    background-image: url(https://app.vocus.ae/build/assets/cd-d755e707.svg)
 }
 
 .flag-icon-cf {
-    background-image: url(https://cuba.test/build/assets/cf-94535a64.svg)
+    background-image: url(https://app.vocus.ae/build/assets/cf-94535a64.svg)
 }
 
 .flag-icon-cf.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/cf-94535a64.svg)
+    background-image: url(https://app.vocus.ae/build/assets/cf-94535a64.svg)
 }
 
 .flag-icon-cg {
-    background-image: url(https://cuba.test/build/assets/cg-745039f2.svg)
+    background-image: url(https://app.vocus.ae/build/assets/cg-745039f2.svg)
 }
 
 .flag-icon-cg.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/cg-745039f2.svg)
+    background-image: url(https://app.vocus.ae/build/assets/cg-745039f2.svg)
 }
 
 .flag-icon-ch {
-    background-image: url(https://cuba.test/build/assets/ch-e4178d15.svg)
+    background-image: url(https://app.vocus.ae/build/assets/ch-e4178d15.svg)
 }
 
 .flag-icon-ch.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/ch-e4178d15.svg)
+    background-image: url(https://app.vocus.ae/build/assets/ch-e4178d15.svg)
 }
 
 .flag-icon-ci {
-    background-image: url(https://cuba.test/build/assets/ci-178b7cff.svg)
+    background-image: url(https://app.vocus.ae/build/assets/ci-178b7cff.svg)
 }
 
 .flag-icon-ci.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/ci-178b7cff.svg)
+    background-image: url(https://app.vocus.ae/build/assets/ci-178b7cff.svg)
 }
 
 .flag-icon-ck {
-    background-image: url(https://cuba.test/build/assets/ck-5e277c2f.svg)
+    background-image: url(https://app.vocus.ae/build/assets/ck-5e277c2f.svg)
 }
 
 .flag-icon-ck.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/ck-5e277c2f.svg)
+    background-image: url(https://app.vocus.ae/build/assets/ck-5e277c2f.svg)
 }
 
 .flag-icon-cl {
-    background-image: url(https://cuba.test/build/assets/cl-4fc3a015.svg)
+    background-image: url(https://app.vocus.ae/build/assets/cl-4fc3a015.svg)
 }
 
 .flag-icon-cl.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/cl-4fc3a015.svg)
+    background-image: url(https://app.vocus.ae/build/assets/cl-4fc3a015.svg)
 }
 
 .flag-icon-cm {
-    background-image: url(https://cuba.test/build/assets/cm-794d54ef.svg)
+    background-image: url(https://app.vocus.ae/build/assets/cm-794d54ef.svg)
 }
 
 .flag-icon-cm.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/cm-794d54ef.svg)
+    background-image: url(https://app.vocus.ae/build/assets/cm-794d54ef.svg)
 }
 
 .flag-icon-cn {
-    background-image: url(https://cuba.test/build/assets/cn-22995be6.svg)
+    background-image: url(https://app.vocus.ae/build/assets/cn-22995be6.svg)
 }
 
 .flag-icon-cn.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/cn-22995be6.svg)
+    background-image: url(https://app.vocus.ae/build/assets/cn-22995be6.svg)
 }
 
 .flag-icon-co {
-    background-image: url(https://cuba.test/build/assets/co-987633cb.svg)
+    background-image: url(https://app.vocus.ae/build/assets/co-987633cb.svg)
 }
 
 .flag-icon-co.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/co-987633cb.svg)
+    background-image: url(https://app.vocus.ae/build/assets/co-987633cb.svg)
 }
 
 .flag-icon-cr {
-    background-image: url(https://cuba.test/build/assets/cr-448ae310.svg)
+    background-image: url(https://app.vocus.ae/build/assets/cr-448ae310.svg)
 }
 
 .flag-icon-cr.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/cr-448ae310.svg)
+    background-image: url(https://app.vocus.ae/build/assets/cr-448ae310.svg)
 }
 
 .flag-icon-cu {
-    background-image: url(https://cuba.test/build/assets/cu-11756825.svg)
+    background-image: url(https://app.vocus.ae/build/assets/cu-11756825.svg)
 }
 
 .flag-icon-cu.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/cu-11756825.svg)
+    background-image: url(https://app.vocus.ae/build/assets/cu-11756825.svg)
 }
 
 .flag-icon-cv {
-    background-image: url(https://cuba.test/build/assets/cv-dc12ffac.svg)
+    background-image: url(https://app.vocus.ae/build/assets/cv-dc12ffac.svg)
 }
 
 .flag-icon-cv.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/cv-dc12ffac.svg)
+    background-image: url(https://app.vocus.ae/build/assets/cv-dc12ffac.svg)
 }
 
 .flag-icon-cw {
-    background-image: url(https://cuba.test/build/assets/cw-a54b946a.svg)
+    background-image: url(https://app.vocus.ae/build/assets/cw-a54b946a.svg)
 }
 
 .flag-icon-cw.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/cw-a54b946a.svg)
+    background-image: url(https://app.vocus.ae/build/assets/cw-a54b946a.svg)
 }
 
 .flag-icon-cx {
-    background-image: url(https://cuba.test/build/assets/cx-ae027c03.svg)
+    background-image: url(https://app.vocus.ae/build/assets/cx-ae027c03.svg)
 }
 
 .flag-icon-cx.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/cx-ae027c03.svg)
+    background-image: url(https://app.vocus.ae/build/assets/cx-ae027c03.svg)
 }
 
 .flag-icon-cy {
-    background-image: url(https://cuba.test/build/assets/cy-2737a726.svg)
+    background-image: url(https://app.vocus.ae/build/assets/cy-2737a726.svg)
 }
 
 .flag-icon-cy.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/cy-2737a726.svg)
+    background-image: url(https://app.vocus.ae/build/assets/cy-2737a726.svg)
 }
 
 .flag-icon-cz {
-    background-image: url(https://cuba.test/build/assets/cz-1caa3e0a.svg)
+    background-image: url(https://app.vocus.ae/build/assets/cz-1caa3e0a.svg)
 }
 
 .flag-icon-cz.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/cz-1caa3e0a.svg)
+    background-image: url(https://app.vocus.ae/build/assets/cz-1caa3e0a.svg)
 }
 
 .flag-icon-de {
-    background-image: url(https://cuba.test/build/assets/de-0b1b5e16.svg)
+    background-image: url(https://app.vocus.ae/build/assets/de-0b1b5e16.svg)
 }
 
 .flag-icon-de.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/de-0b1b5e16.svg)
+    background-image: url(https://app.vocus.ae/build/assets/de-0b1b5e16.svg)
 }
 
 .flag-icon-dj {
-    background-image: url(https://cuba.test/build/assets/dj-ee7c0ea7.svg)
+    background-image: url(https://app.vocus.ae/build/assets/dj-ee7c0ea7.svg)
 }
 
 .flag-icon-dj.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/dj-ee7c0ea7.svg)
+    background-image: url(https://app.vocus.ae/build/assets/dj-ee7c0ea7.svg)
 }
 
 .flag-icon-dk {
-    background-image: url(https://cuba.test/build/assets/dk-0019fda6.svg)
+    background-image: url(https://app.vocus.ae/build/assets/dk-0019fda6.svg)
 }
 
 .flag-icon-dk.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/dk-0019fda6.svg)
+    background-image: url(https://app.vocus.ae/build/assets/dk-0019fda6.svg)
 }
 
 .flag-icon-dm {
-    background-image: url(https://cuba.test/build/assets/dm-db34e967.svg)
+    background-image: url(https://app.vocus.ae/build/assets/dm-db34e967.svg)
 }
 
 .flag-icon-dm.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/dm-db34e967.svg)
+    background-image: url(https://app.vocus.ae/build/assets/dm-db34e967.svg)
 }
 
 .flag-icon-do {
-    background-image: url(https://cuba.test/build/assets/do-8aa9b0d6.svg)
+    background-image: url(https://app.vocus.ae/build/assets/do-8aa9b0d6.svg)
 }
 
 .flag-icon-do.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/do-8aa9b0d6.svg)
+    background-image: url(https://app.vocus.ae/build/assets/do-8aa9b0d6.svg)
 }
 
 .flag-icon-dz {
-    background-image: url(https://cuba.test/build/assets/dz-96d0a106.svg)
+    background-image: url(https://app.vocus.ae/build/assets/dz-96d0a106.svg)
 }
 
 .flag-icon-dz.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/dz-96d0a106.svg)
+    background-image: url(https://app.vocus.ae/build/assets/dz-96d0a106.svg)
 }
 
 .flag-icon-ec {
-    background-image: url(https://cuba.test/build/assets/ec-c307a9be.svg)
+    background-image: url(https://app.vocus.ae/build/assets/ec-c307a9be.svg)
 }
 
 .flag-icon-ec.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/ec-c307a9be.svg)
+    background-image: url(https://app.vocus.ae/build/assets/ec-c307a9be.svg)
 }
 
 .flag-icon-ee {
-    background-image: url(https://cuba.test/build/assets/ee-d739c3f6.svg)
+    background-image: url(https://app.vocus.ae/build/assets/ee-d739c3f6.svg)
 }
 
 .flag-icon-ee.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/ee-d739c3f6.svg)
+    background-image: url(https://app.vocus.ae/build/assets/ee-d739c3f6.svg)
 }
 
 .flag-icon-eg {
-    background-image: url(https://cuba.test/build/assets/eg-73dd373e.svg)
+    background-image: url(https://app.vocus.ae/build/assets/eg-73dd373e.svg)
 }
 
 .flag-icon-eg.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/eg-73dd373e.svg)
+    background-image: url(https://app.vocus.ae/build/assets/eg-73dd373e.svg)
 }
 
 .flag-icon-eh {
-    background-image: url(https://cuba.test/build/assets/eh-60d6ed15.svg)
+    background-image: url(https://app.vocus.ae/build/assets/eh-60d6ed15.svg)
 }
 
 .flag-icon-eh.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/eh-60d6ed15.svg)
+    background-image: url(https://app.vocus.ae/build/assets/eh-60d6ed15.svg)
 }
 
 .flag-icon-er {
-    background-image: url(https://cuba.test/build/assets/er-c8a025d4.svg)
+    background-image: url(https://app.vocus.ae/build/assets/er-c8a025d4.svg)
 }
 
 .flag-icon-er.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/er-c8a025d4.svg)
+    background-image: url(https://app.vocus.ae/build/assets/er-c8a025d4.svg)
 }
 
 .flag-icon-es {
-    background-image: url(https://cuba.test/build/assets/es-9e58bddf.svg)
+    background-image: url(https://app.vocus.ae/build/assets/es-9e58bddf.svg)
 }
 
 .flag-icon-es.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/es-9e58bddf.svg)
+    background-image: url(https://app.vocus.ae/build/assets/es-9e58bddf.svg)
 }
 
 .flag-icon-et {
-    background-image: url(https://cuba.test/build/assets/et-69570758.svg)
+    background-image: url(https://app.vocus.ae/build/assets/et-69570758.svg)
 }
 
 .flag-icon-et.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/et-69570758.svg)
+    background-image: url(https://app.vocus.ae/build/assets/et-69570758.svg)
 }
 
 .flag-icon-fi {
-    background-image: url(https://cuba.test/build/assets/fi-7acd48ad.svg)
+    background-image: url(https://app.vocus.ae/build/assets/fi-7acd48ad.svg)
 }
 
 .flag-icon-fi.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/fi-7acd48ad.svg)
+    background-image: url(https://app.vocus.ae/build/assets/fi-7acd48ad.svg)
 }
 
 .flag-icon-fj {
-    background-image: url(https://cuba.test/build/assets/fj-a9110cd8.svg)
+    background-image: url(https://app.vocus.ae/build/assets/fj-a9110cd8.svg)
 }
 
 .flag-icon-fj.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/fj-a9110cd8.svg)
+    background-image: url(https://app.vocus.ae/build/assets/fj-a9110cd8.svg)
 }
 
 .flag-icon-fk {
-    background-image: url(https://cuba.test/build/assets/fk-27d5cda3.svg)
+    background-image: url(https://app.vocus.ae/build/assets/fk-27d5cda3.svg)
 }
 
 .flag-icon-fk.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/fk-27d5cda3.svg)
+    background-image: url(https://app.vocus.ae/build/assets/fk-27d5cda3.svg)
 }
 
 .flag-icon-fm {
-    background-image: url(https://cuba.test/build/assets/fm-2491fe2d.svg)
+    background-image: url(https://app.vocus.ae/build/assets/fm-2491fe2d.svg)
 }
 
 .flag-icon-fm.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/fm-2491fe2d.svg)
+    background-image: url(https://app.vocus.ae/build/assets/fm-2491fe2d.svg)
 }
 
 .flag-icon-fo {
-    background-image: url(https://cuba.test/build/assets/fo-d558296a.svg)
+    background-image: url(https://app.vocus.ae/build/assets/fo-d558296a.svg)
 }
 
 .flag-icon-fo.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/fo-d558296a.svg)
+    background-image: url(https://app.vocus.ae/build/assets/fo-d558296a.svg)
 }
 
 .flag-icon-fr {
-    background-image: url(https://cuba.test/build/assets/fr-0d287f3b.svg)
+    background-image: url(https://app.vocus.ae/build/assets/fr-0d287f3b.svg)
 }
 
 .flag-icon-fr.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/fr-0d287f3b.svg)
+    background-image: url(https://app.vocus.ae/build/assets/fr-0d287f3b.svg)
 }
 
 .flag-icon-ga {
-    background-image: url(https://cuba.test/build/assets/ga-12d8d6bb.svg)
+    background-image: url(https://app.vocus.ae/build/assets/ga-12d8d6bb.svg)
 }
 
 .flag-icon-ga.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/ga-12d8d6bb.svg)
+    background-image: url(https://app.vocus.ae/build/assets/ga-12d8d6bb.svg)
 }
 
 .flag-icon-gb {
-    background-image: url(https://cuba.test/build/assets/gb-dafe41f9.svg)
+    background-image: url(https://app.vocus.ae/build/assets/gb-dafe41f9.svg)
 }
 
 .flag-icon-gb.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/gb-dafe41f9.svg)
+    background-image: url(https://app.vocus.ae/build/assets/gb-dafe41f9.svg)
 }
 
 .flag-icon-gd {
-    background-image: url(https://cuba.test/build/assets/gd-650eac13.svg)
+    background-image: url(https://app.vocus.ae/build/assets/gd-650eac13.svg)
 }
 
 .flag-icon-gd.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/gd-650eac13.svg)
+    background-image: url(https://app.vocus.ae/build/assets/gd-650eac13.svg)
 }
 
 .flag-icon-ge {
-    background-image: url(https://cuba.test/build/assets/ge-be5d9744.svg)
+    background-image: url(https://app.vocus.ae/build/assets/ge-be5d9744.svg)
 }
 
 .flag-icon-ge.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/ge-be5d9744.svg)
+    background-image: url(https://app.vocus.ae/build/assets/ge-be5d9744.svg)
 }
 
 .flag-icon-gf {
-    background-image: url(https://cuba.test/build/assets/gf-d731f16a.svg)
+    background-image: url(https://app.vocus.ae/build/assets/gf-d731f16a.svg)
 }
 
 .flag-icon-gf.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/gf-d731f16a.svg)
+    background-image: url(https://app.vocus.ae/build/assets/gf-d731f16a.svg)
 }
 
 .flag-icon-gg {
-    background-image: url(https://cuba.test/build/assets/gg-f71c12f5.svg)
+    background-image: url(https://app.vocus.ae/build/assets/gg-f71c12f5.svg)
 }
 
 .flag-icon-gg.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/gg-f71c12f5.svg)
+    background-image: url(https://app.vocus.ae/build/assets/gg-f71c12f5.svg)
 }
 
 .flag-icon-gh {
-    background-image: url(https://cuba.test/build/assets/gh-9788593c.svg)
+    background-image: url(https://app.vocus.ae/build/assets/gh-9788593c.svg)
 }
 
 .flag-icon-gh.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/gh-9788593c.svg)
+    background-image: url(https://app.vocus.ae/build/assets/gh-9788593c.svg)
 }
 
 .flag-icon-gi {
-    background-image: url(https://cuba.test/build/assets/gi-7ecdec4a.svg)
+    background-image: url(https://app.vocus.ae/build/assets/gi-7ecdec4a.svg)
 }
 
 .flag-icon-gi.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/gi-7ecdec4a.svg)
+    background-image: url(https://app.vocus.ae/build/assets/gi-7ecdec4a.svg)
 }
 
 .flag-icon-gl {
-    background-image: url(https://cuba.test/build/assets/gl-9a38c161.svg)
+    background-image: url(https://app.vocus.ae/build/assets/gl-9a38c161.svg)
 }
 
 .flag-icon-gl.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/gl-9a38c161.svg)
+    background-image: url(https://app.vocus.ae/build/assets/gl-9a38c161.svg)
 }
 
 .flag-icon-gm {
-    background-image: url(https://cuba.test/build/assets/gm-6f80b048.svg)
+    background-image: url(https://app.vocus.ae/build/assets/gm-6f80b048.svg)
 }
 
 .flag-icon-gm.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/gm-6f80b048.svg)
+    background-image: url(https://app.vocus.ae/build/assets/gm-6f80b048.svg)
 }
 
 .flag-icon-gn {
-    background-image: url(https://cuba.test/build/assets/gn-761ff70b.svg)
+    background-image: url(https://app.vocus.ae/build/assets/gn-761ff70b.svg)
 }
 
 .flag-icon-gn.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/gn-761ff70b.svg)
+    background-image: url(https://app.vocus.ae/build/assets/gn-761ff70b.svg)
 }
 
 .flag-icon-gp {
-    background-image: url(https://cuba.test/build/assets/gp-69e1b3ae.svg)
+    background-image: url(https://app.vocus.ae/build/assets/gp-69e1b3ae.svg)
 }
 
 .flag-icon-gp.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/gp-69e1b3ae.svg)
+    background-image: url(https://app.vocus.ae/build/assets/gp-69e1b3ae.svg)
 }
 
 .flag-icon-gq {
-    background-image: url(https://cuba.test/build/assets/gq-8b09ba7d.svg)
+    background-image: url(https://app.vocus.ae/build/assets/gq-8b09ba7d.svg)
 }
 
 .flag-icon-gq.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/gq-8b09ba7d.svg)
+    background-image: url(https://app.vocus.ae/build/assets/gq-8b09ba7d.svg)
 }
 
 .flag-icon-gr {
-    background-image: url(https://cuba.test/build/assets/gr-658f5491.svg)
+    background-image: url(https://app.vocus.ae/build/assets/gr-658f5491.svg)
 }
 
 .flag-icon-gr.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/gr-658f5491.svg)
+    background-image: url(https://app.vocus.ae/build/assets/gr-658f5491.svg)
 }
 
 .flag-icon-gs {
-    background-image: url(https://cuba.test/build/assets/gs-1c6e109a.svg)
+    background-image: url(https://app.vocus.ae/build/assets/gs-1c6e109a.svg)
 }
 
 .flag-icon-gs.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/gs-1c6e109a.svg)
+    background-image: url(https://app.vocus.ae/build/assets/gs-1c6e109a.svg)
 }
 
 .flag-icon-gt {
-    background-image: url(https://cuba.test/build/assets/gt-9dab3d01.svg)
+    background-image: url(https://app.vocus.ae/build/assets/gt-9dab3d01.svg)
 }
 
 .flag-icon-gt.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/gt-9dab3d01.svg)
+    background-image: url(https://app.vocus.ae/build/assets/gt-9dab3d01.svg)
 }
 
 .flag-icon-gu {
-    background-image: url(https://cuba.test/build/assets/gu-b3ce0f7b.svg)
+    background-image: url(https://app.vocus.ae/build/assets/gu-b3ce0f7b.svg)
 }
 
 .flag-icon-gu.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/gu-b3ce0f7b.svg)
+    background-image: url(https://app.vocus.ae/build/assets/gu-b3ce0f7b.svg)
 }
 
 .flag-icon-gw {
-    background-image: url(https://cuba.test/build/assets/gw-2bcf5c5f.svg)
+    background-image: url(https://app.vocus.ae/build/assets/gw-2bcf5c5f.svg)
 }
 
 .flag-icon-gw.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/gw-2bcf5c5f.svg)
+    background-image: url(https://app.vocus.ae/build/assets/gw-2bcf5c5f.svg)
 }
 
 .flag-icon-gy {
-    background-image: url(https://cuba.test/build/assets/gy-f2ac6987.svg)
+    background-image: url(https://app.vocus.ae/build/assets/gy-f2ac6987.svg)
 }
 
 .flag-icon-gy.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/gy-f2ac6987.svg)
+    background-image: url(https://app.vocus.ae/build/assets/gy-f2ac6987.svg)
 }
 
 .flag-icon-hk {
-    background-image: url(https://cuba.test/build/assets/hk-e50b7c7b.svg)
+    background-image: url(https://app.vocus.ae/build/assets/hk-e50b7c7b.svg)
 }
 
 .flag-icon-hk.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/hk-e50b7c7b.svg)
+    background-image: url(https://app.vocus.ae/build/assets/hk-e50b7c7b.svg)
 }
 
 .flag-icon-hm {
-    background-image: url(https://cuba.test/build/assets/hm-cfe87063.svg)
+    background-image: url(https://app.vocus.ae/build/assets/hm-cfe87063.svg)
 }
 
 .flag-icon-hm.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/hm-cfe87063.svg)
+    background-image: url(https://app.vocus.ae/build/assets/hm-cfe87063.svg)
 }
 
 .flag-icon-hn {
-    background-image: url(https://cuba.test/build/assets/hn-ee7a6f7d.svg)
+    background-image: url(https://app.vocus.ae/build/assets/hn-ee7a6f7d.svg)
 }
 
 .flag-icon-hn.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/hn-ee7a6f7d.svg)
+    background-image: url(https://app.vocus.ae/build/assets/hn-ee7a6f7d.svg)
 }
 
 .flag-icon-hr {
-    background-image: url(https://cuba.test/build/assets/hr-baa88c94.svg)
+    background-image: url(https://app.vocus.ae/build/assets/hr-baa88c94.svg)
 }
 
 .flag-icon-hr.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/hr-baa88c94.svg)
+    background-image: url(https://app.vocus.ae/build/assets/hr-baa88c94.svg)
 }
 
 .flag-icon-ht {
-    background-image: url(https://cuba.test/build/assets/ht-d61347b3.svg)
+    background-image: url(https://app.vocus.ae/build/assets/ht-d61347b3.svg)
 }
 
 .flag-icon-ht.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/ht-d61347b3.svg)
+    background-image: url(https://app.vocus.ae/build/assets/ht-d61347b3.svg)
 }
 
 .flag-icon-hu {
-    background-image: url(https://cuba.test/build/assets/hu-ce62561a.svg)
+    background-image: url(https://app.vocus.ae/build/assets/hu-ce62561a.svg)
 }
 
 .flag-icon-hu.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/hu-ce62561a.svg)
+    background-image: url(https://app.vocus.ae/build/assets/hu-ce62561a.svg)
 }
 
 .flag-icon-id {
-    background-image: url(https://cuba.test/build/assets/id-873365ba.svg)
+    background-image: url(https://app.vocus.ae/build/assets/id-873365ba.svg)
 }
 
 .flag-icon-id.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/id-873365ba.svg)
+    background-image: url(https://app.vocus.ae/build/assets/id-873365ba.svg)
 }
 
 .flag-icon-ie {
-    background-image: url(https://cuba.test/build/assets/ie-9535326f.svg)
+    background-image: url(https://app.vocus.ae/build/assets/ie-9535326f.svg)
 }
 
 .flag-icon-ie.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/ie-9535326f.svg)
+    background-image: url(https://app.vocus.ae/build/assets/ie-9535326f.svg)
 }
 
 .flag-icon-il {
-    background-image: url(https://cuba.test/build/assets/il-234f76a8.svg)
+    background-image: url(https://app.vocus.ae/build/assets/il-234f76a8.svg)
 }
 
 .flag-icon-il.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/il-234f76a8.svg)
+    background-image: url(https://app.vocus.ae/build/assets/il-234f76a8.svg)
 }
 
 .flag-icon-im {
-    background-image: url(https://cuba.test/build/assets/im-30d81c24.svg)
+    background-image: url(https://app.vocus.ae/build/assets/im-30d81c24.svg)
 }
 
 .flag-icon-im.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/im-30d81c24.svg)
+    background-image: url(https://app.vocus.ae/build/assets/im-30d81c24.svg)
 }
 
 .flag-icon-in {
-    background-image: url(https://cuba.test/build/assets/in-480b4bfc.svg)
+    background-image: url(https://app.vocus.ae/build/assets/in-480b4bfc.svg)
 }
 
 .flag-icon-in.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/in-480b4bfc.svg)
+    background-image: url(https://app.vocus.ae/build/assets/in-480b4bfc.svg)
 }
 
 .flag-icon-io {
-    background-image: url(https://cuba.test/build/assets/io-2a377b5b.svg)
+    background-image: url(https://app.vocus.ae/build/assets/io-2a377b5b.svg)
 }
 
 .flag-icon-io.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/io-2a377b5b.svg)
+    background-image: url(https://app.vocus.ae/build/assets/io-2a377b5b.svg)
 }
 
 .flag-icon-iq {
-    background-image: url(https://cuba.test/build/assets/iq-2f9f7605.svg)
+    background-image: url(https://app.vocus.ae/build/assets/iq-2f9f7605.svg)
 }
 
 .flag-icon-iq.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/iq-2f9f7605.svg)
+    background-image: url(https://app.vocus.ae/build/assets/iq-2f9f7605.svg)
 }
 
 .flag-icon-ir {
-    background-image: url(https://cuba.test/build/assets/ir-bf0ef300.svg)
+    background-image: url(https://app.vocus.ae/build/assets/ir-bf0ef300.svg)
 }
 
 .flag-icon-ir.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/ir-bf0ef300.svg)
+    background-image: url(https://app.vocus.ae/build/assets/ir-bf0ef300.svg)
 }
 
 .flag-icon-is {
-    background-image: url(https://cuba.test/build/assets/is-12835876.svg)
+    background-image: url(https://app.vocus.ae/build/assets/is-12835876.svg)
 }
 
 .flag-icon-is.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/is-12835876.svg)
+    background-image: url(https://app.vocus.ae/build/assets/is-12835876.svg)
 }
 
 .flag-icon-it {
-    background-image: url(https://cuba.test/build/assets/it-3b9e861d.svg)
+    background-image: url(https://app.vocus.ae/build/assets/it-3b9e861d.svg)
 }
 
 .flag-icon-it.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/it-3b9e861d.svg)
+    background-image: url(https://app.vocus.ae/build/assets/it-3b9e861d.svg)
 }
 
 .flag-icon-je {
-    background-image: url(https://cuba.test/build/assets/je-b4d3446b.svg)
+    background-image: url(https://app.vocus.ae/build/assets/je-b4d3446b.svg)
 }
 
 .flag-icon-je.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/je-b4d3446b.svg)
+    background-image: url(https://app.vocus.ae/build/assets/je-b4d3446b.svg)
 }
 
 .flag-icon-jm {
-    background-image: url(https://cuba.test/build/assets/jm-5e94b4b1.svg)
+    background-image: url(https://app.vocus.ae/build/assets/jm-5e94b4b1.svg)
 }
 
 .flag-icon-jm.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/jm-5e94b4b1.svg)
+    background-image: url(https://app.vocus.ae/build/assets/jm-5e94b4b1.svg)
 }
 
 .flag-icon-jo {
-    background-image: url(https://cuba.test/build/assets/jo-922ba9c4.svg)
+    background-image: url(https://app.vocus.ae/build/assets/jo-922ba9c4.svg)
 }
 
 .flag-icon-jo.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/jo-922ba9c4.svg)
+    background-image: url(https://app.vocus.ae/build/assets/jo-922ba9c4.svg)
 }
 
 .flag-icon-jp {
-    background-image: url(https://cuba.test/build/assets/jp-cf3e0b78.svg)
+    background-image: url(https://app.vocus.ae/build/assets/jp-cf3e0b78.svg)
 }
 
 .flag-icon-jp.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/jp-cf3e0b78.svg)
+    background-image: url(https://app.vocus.ae/build/assets/jp-cf3e0b78.svg)
 }
 
 .flag-icon-ke {
-    background-image: url(https://cuba.test/build/assets/ke-e27306b1.svg)
+    background-image: url(https://app.vocus.ae/build/assets/ke-e27306b1.svg)
 }
 
 .flag-icon-ke.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/ke-e27306b1.svg)
+    background-image: url(https://app.vocus.ae/build/assets/ke-e27306b1.svg)
 }
 
 .flag-icon-kg {
-    background-image: url(https://cuba.test/build/assets/kg-b9cdecd3.svg)
+    background-image: url(https://app.vocus.ae/build/assets/kg-b9cdecd3.svg)
 }
 
 .flag-icon-kg.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/kg-b9cdecd3.svg)
+    background-image: url(https://app.vocus.ae/build/assets/kg-b9cdecd3.svg)
 }
 
 .flag-icon-kh {
-    background-image: url(https://cuba.test/build/assets/kh-d0223596.svg)
+    background-image: url(https://app.vocus.ae/build/assets/kh-d0223596.svg)
 }
 
 .flag-icon-kh.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/kh-d0223596.svg)
+    background-image: url(https://app.vocus.ae/build/assets/kh-d0223596.svg)
 }
 
 .flag-icon-ki {
-    background-image: url(https://cuba.test/build/assets/ki-06a82dd5.svg)
+    background-image: url(https://app.vocus.ae/build/assets/ki-06a82dd5.svg)
 }
 
 .flag-icon-ki.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/ki-06a82dd5.svg)
+    background-image: url(https://app.vocus.ae/build/assets/ki-06a82dd5.svg)
 }
 
 .flag-icon-km {
-    background-image: url(https://cuba.test/build/assets/km-377be34e.svg)
+    background-image: url(https://app.vocus.ae/build/assets/km-377be34e.svg)
 }
 
 .flag-icon-km.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/km-377be34e.svg)
+    background-image: url(https://app.vocus.ae/build/assets/km-377be34e.svg)
 }
 
 .flag-icon-kn {
-    background-image: url(https://cuba.test/build/assets/kn-b6ea77f0.svg)
+    background-image: url(https://app.vocus.ae/build/assets/kn-b6ea77f0.svg)
 }
 
 .flag-icon-kn.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/kn-b6ea77f0.svg)
+    background-image: url(https://app.vocus.ae/build/assets/kn-b6ea77f0.svg)
 }
 
 .flag-icon-kp {
-    background-image: url(https://cuba.test/build/assets/kp-122e59c3.svg)
+    background-image: url(https://app.vocus.ae/build/assets/kp-122e59c3.svg)
 }
 
 .flag-icon-kp.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/kp-122e59c3.svg)
+    background-image: url(https://app.vocus.ae/build/assets/kp-122e59c3.svg)
 }
 
 .flag-icon-kr {
-    background-image: url(https://cuba.test/build/assets/kr-fe42bd26.svg)
+    background-image: url(https://app.vocus.ae/build/assets/kr-fe42bd26.svg)
 }
 
 .flag-icon-kr.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/kr-fe42bd26.svg)
+    background-image: url(https://app.vocus.ae/build/assets/kr-fe42bd26.svg)
 }
 
 .flag-icon-kw {
-    background-image: url(https://cuba.test/build/assets/kw-d1821136.svg)
+    background-image: url(https://app.vocus.ae/build/assets/kw-d1821136.svg)
 }
 
 .flag-icon-kw.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/kw-d1821136.svg)
+    background-image: url(https://app.vocus.ae/build/assets/kw-d1821136.svg)
 }
 
 .flag-icon-ky {
-    background-image: url(https://cuba.test/build/assets/ky-6d540ab5.svg)
+    background-image: url(https://app.vocus.ae/build/assets/ky-6d540ab5.svg)
 }
 
 .flag-icon-ky.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/ky-6d540ab5.svg)
+    background-image: url(https://app.vocus.ae/build/assets/ky-6d540ab5.svg)
 }
 
 .flag-icon-kz {
-    background-image: url(https://cuba.test/build/assets/kz-9e459b61.svg)
+    background-image: url(https://app.vocus.ae/build/assets/kz-9e459b61.svg)
 }
 
 .flag-icon-kz.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/kz-9e459b61.svg)
+    background-image: url(https://app.vocus.ae/build/assets/kz-9e459b61.svg)
 }
 
 .flag-icon-la {
-    background-image: url(https://cuba.test/build/assets/la-0d09f4b2.svg)
+    background-image: url(https://app.vocus.ae/build/assets/la-0d09f4b2.svg)
 }
 
 .flag-icon-la.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/la-0d09f4b2.svg)
+    background-image: url(https://app.vocus.ae/build/assets/la-0d09f4b2.svg)
 }
 
 .flag-icon-lb {
-    background-image: url(https://cuba.test/build/assets/lb-71565121.svg)
+    background-image: url(https://app.vocus.ae/build/assets/lb-71565121.svg)
 }
 
 .flag-icon-lb.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/lb-71565121.svg)
+    background-image: url(https://app.vocus.ae/build/assets/lb-71565121.svg)
 }
 
 .flag-icon-lc {
-    background-image: url(https://cuba.test/build/assets/lc-304a50c8.svg)
+    background-image: url(https://app.vocus.ae/build/assets/lc-304a50c8.svg)
 }
 
 .flag-icon-lc.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/lc-304a50c8.svg)
+    background-image: url(https://app.vocus.ae/build/assets/lc-304a50c8.svg)
 }
 
 .flag-icon-li {
-    background-image: url(https://cuba.test/build/assets/li-1918e762.svg)
+    background-image: url(https://app.vocus.ae/build/assets/li-1918e762.svg)
 }
 
 .flag-icon-li.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/li-1918e762.svg)
+    background-image: url(https://app.vocus.ae/build/assets/li-1918e762.svg)
 }
 
 .flag-icon-lk {
-    background-image: url(https://cuba.test/build/assets/lk-18218cfb.svg)
+    background-image: url(https://app.vocus.ae/build/assets/lk-18218cfb.svg)
 }
 
 .flag-icon-lk.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/lk-18218cfb.svg)
+    background-image: url(https://app.vocus.ae/build/assets/lk-18218cfb.svg)
 }
 
 .flag-icon-lr {
-    background-image: url(https://cuba.test/build/assets/lr-4aa3c9a2.svg)
+    background-image: url(https://app.vocus.ae/build/assets/lr-4aa3c9a2.svg)
 }
 
 .flag-icon-lr.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/lr-4aa3c9a2.svg)
+    background-image: url(https://app.vocus.ae/build/assets/lr-4aa3c9a2.svg)
 }
 
 .flag-icon-ls {
-    background-image: url(https://cuba.test/build/assets/ls-d0aa0585.svg)
+    background-image: url(https://app.vocus.ae/build/assets/ls-d0aa0585.svg)
 }
 
 .flag-icon-ls.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/ls-d0aa0585.svg)
+    background-image: url(https://app.vocus.ae/build/assets/ls-d0aa0585.svg)
 }
 
 .flag-icon-lt {
-    background-image: url(https://cuba.test/build/assets/lt-379cf448.svg)
+    background-image: url(https://app.vocus.ae/build/assets/lt-379cf448.svg)
 }
 
 .flag-icon-lt.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/lt-379cf448.svg)
+    background-image: url(https://app.vocus.ae/build/assets/lt-379cf448.svg)
 }
 
 .flag-icon-lu {
-    background-image: url(https://cuba.test/build/assets/lu-17db7a11.svg)
+    background-image: url(https://app.vocus.ae/build/assets/lu-17db7a11.svg)
 }
 
 .flag-icon-lu.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/lu-17db7a11.svg)
+    background-image: url(https://app.vocus.ae/build/assets/lu-17db7a11.svg)
 }
 
 .flag-icon-lv {
-    background-image: url(https://cuba.test/build/assets/lv-892e03d3.svg)
+    background-image: url(https://app.vocus.ae/build/assets/lv-892e03d3.svg)
 }
 
 .flag-icon-lv.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/lv-892e03d3.svg)
+    background-image: url(https://app.vocus.ae/build/assets/lv-892e03d3.svg)
 }
 
 .flag-icon-ly {
-    background-image: url(https://cuba.test/build/assets/ly-55aabfbb.svg)
+    background-image: url(https://app.vocus.ae/build/assets/ly-55aabfbb.svg)
 }
 
 .flag-icon-ly.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/ly-55aabfbb.svg)
+    background-image: url(https://app.vocus.ae/build/assets/ly-55aabfbb.svg)
 }
 
 .flag-icon-ma {
-    background-image: url(https://cuba.test/build/assets/ma-77fa0b59.svg)
+    background-image: url(https://app.vocus.ae/build/assets/ma-77fa0b59.svg)
 }
 
 .flag-icon-ma.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/ma-77fa0b59.svg)
+    background-image: url(https://app.vocus.ae/build/assets/ma-77fa0b59.svg)
 }
 
 .flag-icon-mc {
-    background-image: url(https://cuba.test/build/assets/mc-c922d6af.svg)
+    background-image: url(https://app.vocus.ae/build/assets/mc-c922d6af.svg)
 }
 
 .flag-icon-mc.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/mc-c922d6af.svg)
+    background-image: url(https://app.vocus.ae/build/assets/mc-c922d6af.svg)
 }
 
 .flag-icon-md {
-    background-image: url(https://cuba.test/build/assets/md-7ec2456a.svg)
+    background-image: url(https://app.vocus.ae/build/assets/md-7ec2456a.svg)
 }
 
 .flag-icon-md.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/md-7ec2456a.svg)
+    background-image: url(https://app.vocus.ae/build/assets/md-7ec2456a.svg)
 }
 
 .flag-icon-me {
-    background-image: url(https://cuba.test/build/assets/me-9c7dc32a.svg)
+    background-image: url(https://app.vocus.ae/build/assets/me-9c7dc32a.svg)
 }
 
 .flag-icon-me.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/me-9c7dc32a.svg)
+    background-image: url(https://app.vocus.ae/build/assets/me-9c7dc32a.svg)
 }
 
 .flag-icon-mf {
-    background-image: url(https://cuba.test/build/assets/mf-318c9294.svg)
+    background-image: url(https://app.vocus.ae/build/assets/mf-318c9294.svg)
 }
 
 .flag-icon-mf.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/mf-318c9294.svg)
+    background-image: url(https://app.vocus.ae/build/assets/mf-318c9294.svg)
 }
 
 .flag-icon-mg {
-    background-image: url(https://cuba.test/build/assets/mg-2017e651.svg)
+    background-image: url(https://app.vocus.ae/build/assets/mg-2017e651.svg)
 }
 
 .flag-icon-mg.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/mg-2017e651.svg)
+    background-image: url(https://app.vocus.ae/build/assets/mg-2017e651.svg)
 }
 
 .flag-icon-mh {
-    background-image: url(https://cuba.test/build/assets/mh-ec2c2f3a.svg)
+    background-image: url(https://app.vocus.ae/build/assets/mh-ec2c2f3a.svg)
 }
 
 .flag-icon-mh.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/mh-ec2c2f3a.svg)
+    background-image: url(https://app.vocus.ae/build/assets/mh-ec2c2f3a.svg)
 }
 
 .flag-icon-mk {
-    background-image: url(https://cuba.test/build/assets/mk-59449ecd.svg)
+    background-image: url(https://app.vocus.ae/build/assets/mk-59449ecd.svg)
 }
 
 .flag-icon-mk.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/mk-59449ecd.svg)
+    background-image: url(https://app.vocus.ae/build/assets/mk-59449ecd.svg)
 }
 
 .flag-icon-ml {
-    background-image: url(https://cuba.test/build/assets/ml-71a488d8.svg)
+    background-image: url(https://app.vocus.ae/build/assets/ml-71a488d8.svg)
 }
 
 .flag-icon-ml.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/ml-71a488d8.svg)
+    background-image: url(https://app.vocus.ae/build/assets/ml-71a488d8.svg)
 }
 
 .flag-icon-mm {
-    background-image: url(https://cuba.test/build/assets/mm-6de673b0.svg)
+    background-image: url(https://app.vocus.ae/build/assets/mm-6de673b0.svg)
 }
 
 .flag-icon-mm.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/mm-6de673b0.svg)
+    background-image: url(https://app.vocus.ae/build/assets/mm-6de673b0.svg)
 }
 
 .flag-icon-mn {
-    background-image: url(https://cuba.test/build/assets/mn-093d80b2.svg)
+    background-image: url(https://app.vocus.ae/build/assets/mn-093d80b2.svg)
 }
 
 .flag-icon-mn.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/mn-093d80b2.svg)
+    background-image: url(https://app.vocus.ae/build/assets/mn-093d80b2.svg)
 }
 
 .flag-icon-mo {
-    background-image: url(https://cuba.test/build/assets/mo-0a2e86e5.svg)
+    background-image: url(https://app.vocus.ae/build/assets/mo-0a2e86e5.svg)
 }
 
 .flag-icon-mo.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/mo-0a2e86e5.svg)
+    background-image: url(https://app.vocus.ae/build/assets/mo-0a2e86e5.svg)
 }
 
 .flag-icon-mp {
-    background-image: url(https://cuba.test/build/assets/mp-5a2318e3.svg)
+    background-image: url(https://app.vocus.ae/build/assets/mp-5a2318e3.svg)
 }
 
 .flag-icon-mp.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/mp-5a2318e3.svg)
+    background-image: url(https://app.vocus.ae/build/assets/mp-5a2318e3.svg)
 }
 
 .flag-icon-mq {
-    background-image: url(https://cuba.test/build/assets/mq-2d0f611f.svg)
+    background-image: url(https://app.vocus.ae/build/assets/mq-2d0f611f.svg)
 }
 
 .flag-icon-mq.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/mq-2d0f611f.svg)
+    background-image: url(https://app.vocus.ae/build/assets/mq-2d0f611f.svg)
 }
 
 .flag-icon-mr {
-    background-image: url(https://cuba.test/build/assets/mr-08a6397f.svg)
+    background-image: url(https://app.vocus.ae/build/assets/mr-08a6397f.svg)
 }
 
 .flag-icon-mr.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/mr-08a6397f.svg)
+    background-image: url(https://app.vocus.ae/build/assets/mr-08a6397f.svg)
 }
 
 .flag-icon-ms {
-    background-image: url(https://cuba.test/build/assets/ms-73ce9732.svg)
+    background-image: url(https://app.vocus.ae/build/assets/ms-73ce9732.svg)
 }
 
 .flag-icon-ms.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/ms-73ce9732.svg)
+    background-image: url(https://app.vocus.ae/build/assets/ms-73ce9732.svg)
 }
 
 .flag-icon-mt {
-    background-image: url(https://cuba.test/build/assets/mt-6fd5feb5.svg)
+    background-image: url(https://app.vocus.ae/build/assets/mt-6fd5feb5.svg)
 }
 
 .flag-icon-mt.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/mt-6fd5feb5.svg)
+    background-image: url(https://app.vocus.ae/build/assets/mt-6fd5feb5.svg)
 }
 
 .flag-icon-mu {
-    background-image: url(https://cuba.test/build/assets/mu-53c7d87a.svg)
+    background-image: url(https://app.vocus.ae/build/assets/mu-53c7d87a.svg)
 }
 
 .flag-icon-mu.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/mu-53c7d87a.svg)
+    background-image: url(https://app.vocus.ae/build/assets/mu-53c7d87a.svg)
 }
 
 .flag-icon-mv {
-    background-image: url(https://cuba.test/build/assets/mv-2d69ba53.svg)
+    background-image: url(https://app.vocus.ae/build/assets/mv-2d69ba53.svg)
 }
 
 .flag-icon-mv.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/mv-2d69ba53.svg)
+    background-image: url(https://app.vocus.ae/build/assets/mv-2d69ba53.svg)
 }
 
 .flag-icon-mw {
-    background-image: url(https://cuba.test/build/assets/mw-1acebe76.svg)
+    background-image: url(https://app.vocus.ae/build/assets/mw-1acebe76.svg)
 }
 
 .flag-icon-mw.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/mw-1acebe76.svg)
+    background-image: url(https://app.vocus.ae/build/assets/mw-1acebe76.svg)
 }
 
 .flag-icon-mx {
-    background-image: url(https://cuba.test/build/assets/mx-046ed33f.svg)
+    background-image: url(https://app.vocus.ae/build/assets/mx-046ed33f.svg)
 }
 
 .flag-icon-mx.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/mx-046ed33f.svg)
+    background-image: url(https://app.vocus.ae/build/assets/mx-046ed33f.svg)
 }
 
 .flag-icon-my {
-    background-image: url(https://cuba.test/build/assets/my-ff9d3581.svg)
+    background-image: url(https://app.vocus.ae/build/assets/my-ff9d3581.svg)
 }
 
 .flag-icon-my.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/my-ff9d3581.svg)
+    background-image: url(https://app.vocus.ae/build/assets/my-ff9d3581.svg)
 }
 
 .flag-icon-mz {
-    background-image: url(https://cuba.test/build/assets/mz-eee56c7e.svg)
+    background-image: url(https://app.vocus.ae/build/assets/mz-eee56c7e.svg)
 }
 
 .flag-icon-mz.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/mz-eee56c7e.svg)
+    background-image: url(https://app.vocus.ae/build/assets/mz-eee56c7e.svg)
 }
 
 .flag-icon-na {
-    background-image: url(https://cuba.test/build/assets/na-24cd5fba.svg)
+    background-image: url(https://app.vocus.ae/build/assets/na-24cd5fba.svg)
 }
 
 .flag-icon-na.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/na-24cd5fba.svg)
+    background-image: url(https://app.vocus.ae/build/assets/na-24cd5fba.svg)
 }
 
 .flag-icon-nc {
-    background-image: url(https://cuba.test/build/assets/nc-2dba8ae8.svg)
+    background-image: url(https://app.vocus.ae/build/assets/nc-2dba8ae8.svg)
 }
 
 .flag-icon-nc.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/nc-2dba8ae8.svg)
+    background-image: url(https://app.vocus.ae/build/assets/nc-2dba8ae8.svg)
 }
 
 .flag-icon-ne {
-    background-image: url(https://cuba.test/build/assets/ne-8be56188.svg)
+    background-image: url(https://app.vocus.ae/build/assets/ne-8be56188.svg)
 }
 
 .flag-icon-ne.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/ne-8be56188.svg)
+    background-image: url(https://app.vocus.ae/build/assets/ne-8be56188.svg)
 }
 
 .flag-icon-nf {
-    background-image: url(https://cuba.test/build/assets/nf-0749601e.svg)
+    background-image: url(https://app.vocus.ae/build/assets/nf-0749601e.svg)
 }
 
 .flag-icon-nf.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/nf-0749601e.svg)
+    background-image: url(https://app.vocus.ae/build/assets/nf-0749601e.svg)
 }
 
 .flag-icon-ng {
-    background-image: url(https://cuba.test/build/assets/ng-3c541811.svg)
+    background-image: url(https://app.vocus.ae/build/assets/ng-3c541811.svg)
 }
 
 .flag-icon-ng.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/ng-3c541811.svg)
+    background-image: url(https://app.vocus.ae/build/assets/ng-3c541811.svg)
 }
 
 .flag-icon-ni {
-    background-image: url(https://cuba.test/build/assets/ni-702bcb86.svg)
+    background-image: url(https://app.vocus.ae/build/assets/ni-702bcb86.svg)
 }
 
 .flag-icon-ni.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/ni-702bcb86.svg)
+    background-image: url(https://app.vocus.ae/build/assets/ni-702bcb86.svg)
 }
 
 .flag-icon-nl {
-    background-image: url(https://cuba.test/build/assets/nl-d2d62a99.svg)
+    background-image: url(https://app.vocus.ae/build/assets/nl-d2d62a99.svg)
 }
 
 .flag-icon-nl.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/nl-d2d62a99.svg)
+    background-image: url(https://app.vocus.ae/build/assets/nl-d2d62a99.svg)
 }
 
 .flag-icon-no {
-    background-image: url(https://cuba.test/build/assets/no-ec20d8ff.svg)
+    background-image: url(https://app.vocus.ae/build/assets/no-ec20d8ff.svg)
 }
 
 .flag-icon-no.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/no-ec20d8ff.svg)
+    background-image: url(https://app.vocus.ae/build/assets/no-ec20d8ff.svg)
 }
 
 .flag-icon-np {
-    background-image: url(https://cuba.test/build/assets/np-2148e306.svg)
+    background-image: url(https://app.vocus.ae/build/assets/np-2148e306.svg)
 }
 
 .flag-icon-np.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/np-2148e306.svg)
+    background-image: url(https://app.vocus.ae/build/assets/np-2148e306.svg)
 }
 
 .flag-icon-nr {
-    background-image: url(https://cuba.test/build/assets/nr-5ebe590e.svg)
+    background-image: url(https://app.vocus.ae/build/assets/nr-5ebe590e.svg)
 }
 
 .flag-icon-nr.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/nr-5ebe590e.svg)
+    background-image: url(https://app.vocus.ae/build/assets/nr-5ebe590e.svg)
 }
 
 .flag-icon-nu {
-    background-image: url(https://cuba.test/build/assets/nu-1b0eff2d.svg)
+    background-image: url(https://app.vocus.ae/build/assets/nu-1b0eff2d.svg)
 }
 
 .flag-icon-nu.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/nu-1b0eff2d.svg)
+    background-image: url(https://app.vocus.ae/build/assets/nu-1b0eff2d.svg)
 }
 
 .flag-icon-nz {
-    background-image: url(https://cuba.test/build/assets/nz-da1553ee.svg)
+    background-image: url(https://app.vocus.ae/build/assets/nz-da1553ee.svg)
 }
 
 .flag-icon-nz.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/nz-da1553ee.svg)
+    background-image: url(https://app.vocus.ae/build/assets/nz-da1553ee.svg)
 }
 
 .flag-icon-om {
-    background-image: url(https://cuba.test/build/assets/om-b8905c16.svg)
+    background-image: url(https://app.vocus.ae/build/assets/om-b8905c16.svg)
 }
 
 .flag-icon-om.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/om-b8905c16.svg)
+    background-image: url(https://app.vocus.ae/build/assets/om-b8905c16.svg)
 }
 
 .flag-icon-pa {
-    background-image: url(https://cuba.test/build/assets/pa-3f811103.svg)
+    background-image: url(https://app.vocus.ae/build/assets/pa-3f811103.svg)
 }
 
 .flag-icon-pa.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/pa-3f811103.svg)
+    background-image: url(https://app.vocus.ae/build/assets/pa-3f811103.svg)
 }
 
 .flag-icon-pe {
-    background-image: url(https://cuba.test/build/assets/pe-501641c1.svg)
+    background-image: url(https://app.vocus.ae/build/assets/pe-501641c1.svg)
 }
 
 .flag-icon-pe.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/pe-501641c1.svg)
+    background-image: url(https://app.vocus.ae/build/assets/pe-501641c1.svg)
 }
 
 .flag-icon-pf {
-    background-image: url(https://cuba.test/build/assets/pf-83aa6c3e.svg)
+    background-image: url(https://app.vocus.ae/build/assets/pf-83aa6c3e.svg)
 }
 
 .flag-icon-pf.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/pf-83aa6c3e.svg)
+    background-image: url(https://app.vocus.ae/build/assets/pf-83aa6c3e.svg)
 }
 
 .flag-icon-pg {
-    background-image: url(https://cuba.test/build/assets/pg-a43dee10.svg)
+    background-image: url(https://app.vocus.ae/build/assets/pg-a43dee10.svg)
 }
 
 .flag-icon-pg.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/pg-a43dee10.svg)
+    background-image: url(https://app.vocus.ae/build/assets/pg-a43dee10.svg)
 }
 
 .flag-icon-ph {
-    background-image: url(https://cuba.test/build/assets/ph-d3f0eed9.svg)
+    background-image: url(https://app.vocus.ae/build/assets/ph-d3f0eed9.svg)
 }
 
 .flag-icon-ph.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/ph-d3f0eed9.svg)
+    background-image: url(https://app.vocus.ae/build/assets/ph-d3f0eed9.svg)
 }
 
 .flag-icon-pk {
-    background-image: url(https://cuba.test/build/assets/pk-5597845f.svg)
+    background-image: url(https://app.vocus.ae/build/assets/pk-5597845f.svg)
 }
 
 .flag-icon-pk.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/pk-5597845f.svg)
+    background-image: url(https://app.vocus.ae/build/assets/pk-5597845f.svg)
 }
 
 .flag-icon-pl {
-    background-image: url(https://cuba.test/build/assets/pl-a7902e5e.svg)
+    background-image: url(https://app.vocus.ae/build/assets/pl-a7902e5e.svg)
 }
 
 .flag-icon-pl.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/pl-a7902e5e.svg)
+    background-image: url(https://app.vocus.ae/build/assets/pl-a7902e5e.svg)
 }
 
 .flag-icon-pm {
-    background-image: url(https://cuba.test/build/assets/pm-db603fa7.svg)
+    background-image: url(https://app.vocus.ae/build/assets/pm-db603fa7.svg)
 }
 
 .flag-icon-pm.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/pm-db603fa7.svg)
+    background-image: url(https://app.vocus.ae/build/assets/pm-db603fa7.svg)
 }
 
 .flag-icon-pn {
-    background-image: url(https://cuba.test/build/assets/pn-db72fbe6.svg)
+    background-image: url(https://app.vocus.ae/build/assets/pn-db72fbe6.svg)
 }
 
 .flag-icon-pn.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/pn-db72fbe6.svg)
+    background-image: url(https://app.vocus.ae/build/assets/pn-db72fbe6.svg)
 }
 
 .flag-icon-pr {
-    background-image: url(https://cuba.test/build/assets/pr-df64fe2f.svg)
+    background-image: url(https://app.vocus.ae/build/assets/pr-df64fe2f.svg)
 }
 
 .flag-icon-pr.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/pr-df64fe2f.svg)
+    background-image: url(https://app.vocus.ae/build/assets/pr-df64fe2f.svg)
 }
 
 .flag-icon-ps {
-    background-image: url(https://cuba.test/build/assets/ps-8b0a4cf0.svg)
+    background-image: url(https://app.vocus.ae/build/assets/ps-8b0a4cf0.svg)
 }
 
 .flag-icon-ps.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/ps-8b0a4cf0.svg)
+    background-image: url(https://app.vocus.ae/build/assets/ps-8b0a4cf0.svg)
 }
 
 .flag-icon-pt {
-    background-image: url(https://cuba.test/build/assets/pt-ed387ac8.svg)
+    background-image: url(https://app.vocus.ae/build/assets/pt-ed387ac8.svg)
 }
 
 .flag-icon-pt.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/pt-ed387ac8.svg)
+    background-image: url(https://app.vocus.ae/build/assets/pt-ed387ac8.svg)
 }
 
 .flag-icon-pw {
-    background-image: url(https://cuba.test/build/assets/pw-6a5d7ee5.svg)
+    background-image: url(https://app.vocus.ae/build/assets/pw-6a5d7ee5.svg)
 }
 
 .flag-icon-pw.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/pw-6a5d7ee5.svg)
+    background-image: url(https://app.vocus.ae/build/assets/pw-6a5d7ee5.svg)
 }
 
 .flag-icon-py {
-    background-image: url(https://cuba.test/build/assets/py-3ae907f5.svg)
+    background-image: url(https://app.vocus.ae/build/assets/py-3ae907f5.svg)
 }
 
 .flag-icon-py.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/py-3ae907f5.svg)
+    background-image: url(https://app.vocus.ae/build/assets/py-3ae907f5.svg)
 }
 
 .flag-icon-qa {
-    background-image: url(https://cuba.test/build/assets/qa-8026eab5.svg)
+    background-image: url(https://app.vocus.ae/build/assets/qa-8026eab5.svg)
 }
 
 .flag-icon-qa.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/qa-8026eab5.svg)
+    background-image: url(https://app.vocus.ae/build/assets/qa-8026eab5.svg)
 }
 
 .flag-icon-re {
-    background-image: url(https://cuba.test/build/assets/re-f9345a5e.svg)
+    background-image: url(https://app.vocus.ae/build/assets/re-f9345a5e.svg)
 }
 
 .flag-icon-re.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/re-f9345a5e.svg)
+    background-image: url(https://app.vocus.ae/build/assets/re-f9345a5e.svg)
 }
 
 .flag-icon-ro {
-    background-image: url(https://cuba.test/build/assets/ro-9e96959c.svg)
+    background-image: url(https://app.vocus.ae/build/assets/ro-9e96959c.svg)
 }
 
 .flag-icon-ro.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/ro-9e96959c.svg)
+    background-image: url(https://app.vocus.ae/build/assets/ro-9e96959c.svg)
 }
 
 .flag-icon-rs {
-    background-image: url(https://cuba.test/build/assets/rs-238d0dc5.svg)
+    background-image: url(https://app.vocus.ae/build/assets/rs-238d0dc5.svg)
 }
 
 .flag-icon-rs.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/rs-238d0dc5.svg)
+    background-image: url(https://app.vocus.ae/build/assets/rs-238d0dc5.svg)
 }
 
 .flag-icon-ru {
-    background-image: url(https://cuba.test/build/assets/ru-d053f1f2.svg)
+    background-image: url(https://app.vocus.ae/build/assets/ru-d053f1f2.svg)
 }
 
 .flag-icon-ru.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/ru-d053f1f2.svg)
+    background-image: url(https://app.vocus.ae/build/assets/ru-d053f1f2.svg)
 }
 
 .flag-icon-rw {
-    background-image: url(https://cuba.test/build/assets/rw-2a720029.svg)
+    background-image: url(https://app.vocus.ae/build/assets/rw-2a720029.svg)
 }
 
 .flag-icon-rw.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/rw-2a720029.svg)
+    background-image: url(https://app.vocus.ae/build/assets/rw-2a720029.svg)
 }
 
 .flag-icon-sa {
-    background-image: url(https://cuba.test/build/assets/sa-6fdba503.svg)
+    background-image: url(https://app.vocus.ae/build/assets/sa-6fdba503.svg)
 }
 
 .flag-icon-sa.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/sa-6fdba503.svg)
+    background-image: url(https://app.vocus.ae/build/assets/sa-6fdba503.svg)
 }
 
 .flag-icon-sb {
-    background-image: url(https://cuba.test/build/assets/sb-41b15358.svg)
+    background-image: url(https://app.vocus.ae/build/assets/sb-41b15358.svg)
 }
 
 .flag-icon-sb.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/sb-41b15358.svg)
+    background-image: url(https://app.vocus.ae/build/assets/sb-41b15358.svg)
 }
 
 .flag-icon-sc {
-    background-image: url(https://cuba.test/build/assets/sc-e16c1140.svg)
+    background-image: url(https://app.vocus.ae/build/assets/sc-e16c1140.svg)
 }
 
 .flag-icon-sc.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/sc-e16c1140.svg)
+    background-image: url(https://app.vocus.ae/build/assets/sc-e16c1140.svg)
 }
 
 .flag-icon-sd {
-    background-image: url(https://cuba.test/build/assets/sd-bc6d5802.svg)
+    background-image: url(https://app.vocus.ae/build/assets/sd-bc6d5802.svg)
 }
 
 .flag-icon-sd.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/sd-bc6d5802.svg)
+    background-image: url(https://app.vocus.ae/build/assets/sd-bc6d5802.svg)
 }
 
 .flag-icon-se {
-    background-image: url(https://cuba.test/build/assets/se-62e50417.svg)
+    background-image: url(https://app.vocus.ae/build/assets/se-62e50417.svg)
 }
 
 .flag-icon-se.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/se-62e50417.svg)
+    background-image: url(https://app.vocus.ae/build/assets/se-62e50417.svg)
 }
 
 .flag-icon-sg {
-    background-image: url(https://cuba.test/build/assets/sg-3be11500.svg)
+    background-image: url(https://app.vocus.ae/build/assets/sg-3be11500.svg)
 }
 
 .flag-icon-sg.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/sg-3be11500.svg)
+    background-image: url(https://app.vocus.ae/build/assets/sg-3be11500.svg)
 }
 
 .flag-icon-sh {
-    background-image: url(https://cuba.test/build/assets/sh-1ce8a63f.svg)
+    background-image: url(https://app.vocus.ae/build/assets/sh-1ce8a63f.svg)
 }
 
 .flag-icon-sh.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/sh-1ce8a63f.svg)
+    background-image: url(https://app.vocus.ae/build/assets/sh-1ce8a63f.svg)
 }
 
 .flag-icon-si {
-    background-image: url(https://cuba.test/build/assets/si-62bbf9f7.svg)
+    background-image: url(https://app.vocus.ae/build/assets/si-62bbf9f7.svg)
 }
 
 .flag-icon-si.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/si-62bbf9f7.svg)
+    background-image: url(https://app.vocus.ae/build/assets/si-62bbf9f7.svg)
 }
 
 .flag-icon-sj {
-    background-image: url(https://cuba.test/build/assets/sj-58f03e90.svg)
+    background-image: url(https://app.vocus.ae/build/assets/sj-58f03e90.svg)
 }
 
 .flag-icon-sj.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/sj-58f03e90.svg)
+    background-image: url(https://app.vocus.ae/build/assets/sj-58f03e90.svg)
 }
 
 .flag-icon-sk {
-    background-image: url(https://cuba.test/build/assets/sk-e407af32.svg)
+    background-image: url(https://app.vocus.ae/build/assets/sk-e407af32.svg)
 }
 
 .flag-icon-sk.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/sk-e407af32.svg)
+    background-image: url(https://app.vocus.ae/build/assets/sk-e407af32.svg)
 }
 
 .flag-icon-sl {
-    background-image: url(https://cuba.test/build/assets/sl-d178d32d.svg)
+    background-image: url(https://app.vocus.ae/build/assets/sl-d178d32d.svg)
 }
 
 .flag-icon-sl.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/sl-d178d32d.svg)
+    background-image: url(https://app.vocus.ae/build/assets/sl-d178d32d.svg)
 }
 
 .flag-icon-sm {
-    background-image: url(https://cuba.test/build/assets/sm-bbe071f1.svg)
+    background-image: url(https://app.vocus.ae/build/assets/sm-bbe071f1.svg)
 }
 
 .flag-icon-sm.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/sm-bbe071f1.svg)
+    background-image: url(https://app.vocus.ae/build/assets/sm-bbe071f1.svg)
 }
 
 .flag-icon-sn {
-    background-image: url(https://cuba.test/build/assets/sn-a299cadc.svg)
+    background-image: url(https://app.vocus.ae/build/assets/sn-a299cadc.svg)
 }
 
 .flag-icon-sn.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/sn-a299cadc.svg)
+    background-image: url(https://app.vocus.ae/build/assets/sn-a299cadc.svg)
 }
 
 .flag-icon-so {
-    background-image: url(https://cuba.test/build/assets/so-a15cccf2.svg)
+    background-image: url(https://app.vocus.ae/build/assets/so-a15cccf2.svg)
 }
 
 .flag-icon-so.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/so-a15cccf2.svg)
+    background-image: url(https://app.vocus.ae/build/assets/so-a15cccf2.svg)
 }
 
 .flag-icon-sr {
-    background-image: url(https://cuba.test/build/assets/sr-5a3c600f.svg)
+    background-image: url(https://app.vocus.ae/build/assets/sr-5a3c600f.svg)
 }
 
 .flag-icon-sr.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/sr-5a3c600f.svg)
+    background-image: url(https://app.vocus.ae/build/assets/sr-5a3c600f.svg)
 }
 
 .flag-icon-ss {
-    background-image: url(https://cuba.test/build/assets/ss-30aed5c1.svg)
+    background-image: url(https://app.vocus.ae/build/assets/ss-30aed5c1.svg)
 }
 
 .flag-icon-ss.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/ss-30aed5c1.svg)
+    background-image: url(https://app.vocus.ae/build/assets/ss-30aed5c1.svg)
 }
 
 .flag-icon-st {
-    background-image: url(https://cuba.test/build/assets/st-a1d4a4cf.svg)
+    background-image: url(https://app.vocus.ae/build/assets/st-a1d4a4cf.svg)
 }
 
 .flag-icon-st.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/st-a1d4a4cf.svg)
+    background-image: url(https://app.vocus.ae/build/assets/st-a1d4a4cf.svg)
 }
 
 .flag-icon-sv {
-    background-image: url(https://cuba.test/build/assets/sv-45d3552e.svg)
+    background-image: url(https://app.vocus.ae/build/assets/sv-45d3552e.svg)
 }
 
 .flag-icon-sv.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/sv-45d3552e.svg)
+    background-image: url(https://app.vocus.ae/build/assets/sv-45d3552e.svg)
 }
 
 .flag-icon-sx {
-    background-image: url(https://cuba.test/build/assets/sx-84601655.svg)
+    background-image: url(https://app.vocus.ae/build/assets/sx-84601655.svg)
 }
 
 .flag-icon-sx.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/sx-84601655.svg)
+    background-image: url(https://app.vocus.ae/build/assets/sx-84601655.svg)
 }
 
 .flag-icon-sy {
-    background-image: url(https://cuba.test/build/assets/sy-6d45772b.svg)
+    background-image: url(https://app.vocus.ae/build/assets/sy-6d45772b.svg)
 }
 
 .flag-icon-sy.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/sy-6d45772b.svg)
+    background-image: url(https://app.vocus.ae/build/assets/sy-6d45772b.svg)
 }
 
 .flag-icon-sz {
-    background-image: url(https://cuba.test/build/assets/sz-c1f84adc.svg)
+    background-image: url(https://app.vocus.ae/build/assets/sz-c1f84adc.svg)
 }
 
 .flag-icon-sz.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/sz-c1f84adc.svg)
+    background-image: url(https://app.vocus.ae/build/assets/sz-c1f84adc.svg)
 }
 
 .flag-icon-tc {
-    background-image: url(https://cuba.test/build/assets/tc-e849a342.svg)
+    background-image: url(https://app.vocus.ae/build/assets/tc-e849a342.svg)
 }
 
 .flag-icon-tc.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/tc-e849a342.svg)
+    background-image: url(https://app.vocus.ae/build/assets/tc-e849a342.svg)
 }
 
 .flag-icon-td {
-    background-image: url(https://cuba.test/build/assets/td-dbc1ce84.svg)
+    background-image: url(https://app.vocus.ae/build/assets/td-dbc1ce84.svg)
 }
 
 .flag-icon-td.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/td-dbc1ce84.svg)
+    background-image: url(https://app.vocus.ae/build/assets/td-dbc1ce84.svg)
 }
 
 .flag-icon-tf {
-    background-image: url(https://cuba.test/build/assets/tf-9576536a.svg)
+    background-image: url(https://app.vocus.ae/build/assets/tf-9576536a.svg)
 }
 
 .flag-icon-tf.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/tf-9576536a.svg)
+    background-image: url(https://app.vocus.ae/build/assets/tf-9576536a.svg)
 }
 
 .flag-icon-tg {
-    background-image: url(https://cuba.test/build/assets/tg-085e2364.svg)
+    background-image: url(https://app.vocus.ae/build/assets/tg-085e2364.svg)
 }
 
 .flag-icon-tg.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/tg-085e2364.svg)
+    background-image: url(https://app.vocus.ae/build/assets/tg-085e2364.svg)
 }
 
 .flag-icon-th {
-    background-image: url(https://cuba.test/build/assets/th-e092e880.svg)
+    background-image: url(https://app.vocus.ae/build/assets/th-e092e880.svg)
 }
 
 .flag-icon-th.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/th-e092e880.svg)
+    background-image: url(https://app.vocus.ae/build/assets/th-e092e880.svg)
 }
 
 .flag-icon-tj {
-    background-image: url(https://cuba.test/build/assets/tj-98e3ac2f.svg)
+    background-image: url(https://app.vocus.ae/build/assets/tj-98e3ac2f.svg)
 }
 
 .flag-icon-tj.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/tj-98e3ac2f.svg)
+    background-image: url(https://app.vocus.ae/build/assets/tj-98e3ac2f.svg)
 }
 
 .flag-icon-tk {
-    background-image: url(https://cuba.test/build/assets/tk-d53728e7.svg)
+    background-image: url(https://app.vocus.ae/build/assets/tk-d53728e7.svg)
 }
 
 .flag-icon-tk.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/tk-d53728e7.svg)
+    background-image: url(https://app.vocus.ae/build/assets/tk-d53728e7.svg)
 }
 
 .flag-icon-tl {
-    background-image: url(https://cuba.test/build/assets/tl-7a804ba9.svg)
+    background-image: url(https://app.vocus.ae/build/assets/tl-7a804ba9.svg)
 }
 
 .flag-icon-tl.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/tl-7a804ba9.svg)
+    background-image: url(https://app.vocus.ae/build/assets/tl-7a804ba9.svg)
 }
 
 .flag-icon-tm {
-    background-image: url(https://cuba.test/build/assets/tm-9744b436.svg)
+    background-image: url(https://app.vocus.ae/build/assets/tm-9744b436.svg)
 }
 
 .flag-icon-tm.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/tm-9744b436.svg)
+    background-image: url(https://app.vocus.ae/build/assets/tm-9744b436.svg)
 }
 
 .flag-icon-tn {
-    background-image: url(https://cuba.test/build/assets/tn-1a3ede87.svg)
+    background-image: url(https://app.vocus.ae/build/assets/tn-1a3ede87.svg)
 }
 
 .flag-icon-tn.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/tn-1a3ede87.svg)
+    background-image: url(https://app.vocus.ae/build/assets/tn-1a3ede87.svg)
 }
 
 .flag-icon-to {
-    background-image: url(https://cuba.test/build/assets/to-9ee00a69.svg)
+    background-image: url(https://app.vocus.ae/build/assets/to-9ee00a69.svg)
 }
 
 .flag-icon-to.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/to-9ee00a69.svg)
+    background-image: url(https://app.vocus.ae/build/assets/to-9ee00a69.svg)
 }
 
 .flag-icon-tr {
-    background-image: url(https://cuba.test/build/assets/tr-fbd916f2.svg)
+    background-image: url(https://app.vocus.ae/build/assets/tr-fbd916f2.svg)
 }
 
 .flag-icon-tr.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/tr-fbd916f2.svg)
+    background-image: url(https://app.vocus.ae/build/assets/tr-fbd916f2.svg)
 }
 
 .flag-icon-tt {
-    background-image: url(https://cuba.test/build/assets/tt-b3ddc475.svg)
+    background-image: url(https://app.vocus.ae/build/assets/tt-b3ddc475.svg)
 }
 
 .flag-icon-tt.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/tt-b3ddc475.svg)
+    background-image: url(https://app.vocus.ae/build/assets/tt-b3ddc475.svg)
 }
 
 .flag-icon-tv {
-    background-image: url(https://cuba.test/build/assets/tv-81f37770.svg)
+    background-image: url(https://app.vocus.ae/build/assets/tv-81f37770.svg)
 }
 
 .flag-icon-tv.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/tv-81f37770.svg)
+    background-image: url(https://app.vocus.ae/build/assets/tv-81f37770.svg)
 }
 
 .flag-icon-tw {
-    background-image: url(https://cuba.test/build/assets/tw-373777d9.svg)
+    background-image: url(https://app.vocus.ae/build/assets/tw-373777d9.svg)
 }
 
 .flag-icon-tw.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/tw-373777d9.svg)
+    background-image: url(https://app.vocus.ae/build/assets/tw-373777d9.svg)
 }
 
 .flag-icon-tz {
-    background-image: url(https://cuba.test/build/assets/tz-121dc103.svg)
+    background-image: url(https://app.vocus.ae/build/assets/tz-121dc103.svg)
 }
 
 .flag-icon-tz.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/tz-121dc103.svg)
+    background-image: url(https://app.vocus.ae/build/assets/tz-121dc103.svg)
 }
 
 .flag-icon-ua {
-    background-image: url(https://cuba.test/build/assets/ua-88435e43.svg)
+    background-image: url(https://app.vocus.ae/build/assets/ua-88435e43.svg)
 }
 
 .flag-icon-ua.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/ua-88435e43.svg)
+    background-image: url(https://app.vocus.ae/build/assets/ua-88435e43.svg)
 }
 
 .flag-icon-ug {
-    background-image: url(https://cuba.test/build/assets/ug-08901c52.svg)
+    background-image: url(https://app.vocus.ae/build/assets/ug-08901c52.svg)
 }
 
 .flag-icon-ug.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/ug-08901c52.svg)
+    background-image: url(https://app.vocus.ae/build/assets/ug-08901c52.svg)
 }
 
 .flag-icon-um {
-    background-image: url(https://cuba.test/build/assets/um-d0b48d5c.svg)
+    background-image: url(https://app.vocus.ae/build/assets/um-d0b48d5c.svg)
 }
 
 .flag-icon-um.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/um-d0b48d5c.svg)
+    background-image: url(https://app.vocus.ae/build/assets/um-d0b48d5c.svg)
 }
 
 .flag-icon-us {
-    background-image: url(https://cuba.test/build/assets/us-b14d42e6.svg)
+    background-image: url(https://app.vocus.ae/build/assets/us-b14d42e6.svg)
 }
 
 .flag-icon-us.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/us-b14d42e6.svg)
+    background-image: url(https://app.vocus.ae/build/assets/us-b14d42e6.svg)
 }
 
 .flag-icon-uy {
-    background-image: url(https://cuba.test/build/assets/uy-17472984.svg)
+    background-image: url(https://app.vocus.ae/build/assets/uy-17472984.svg)
 }
 
 .flag-icon-uy.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/uy-17472984.svg)
+    background-image: url(https://app.vocus.ae/build/assets/uy-17472984.svg)
 }
 
 .flag-icon-uz {
-    background-image: url(https://cuba.test/build/assets/uz-b354681d.svg)
+    background-image: url(https://app.vocus.ae/build/assets/uz-b354681d.svg)
 }
 
 .flag-icon-uz.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/uz-b354681d.svg)
+    background-image: url(https://app.vocus.ae/build/assets/uz-b354681d.svg)
 }
 
 .flag-icon-va {
-    background-image: url(https://cuba.test/build/assets/va-5bde521a.svg)
+    background-image: url(https://app.vocus.ae/build/assets/va-5bde521a.svg)
 }
 
 .flag-icon-va.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/va-5bde521a.svg)
+    background-image: url(https://app.vocus.ae/build/assets/va-5bde521a.svg)
 }
 
 .flag-icon-vc {
-    background-image: url(https://cuba.test/build/assets/vc-e0a2dd6a.svg)
+    background-image: url(https://app.vocus.ae/build/assets/vc-e0a2dd6a.svg)
 }
 
 .flag-icon-vc.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/vc-e0a2dd6a.svg)
+    background-image: url(https://app.vocus.ae/build/assets/vc-e0a2dd6a.svg)
 }
 
 .flag-icon-ve {
-    background-image: url(https://cuba.test/build/assets/ve-f1d67a67.svg)
+    background-image: url(https://app.vocus.ae/build/assets/ve-f1d67a67.svg)
 }
 
 .flag-icon-ve.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/ve-f1d67a67.svg)
+    background-image: url(https://app.vocus.ae/build/assets/ve-f1d67a67.svg)
 }
 
 .flag-icon-vg {
-    background-image: url(https://cuba.test/build/assets/vg-fb055cf6.svg)
+    background-image: url(https://app.vocus.ae/build/assets/vg-fb055cf6.svg)
 }
 
 .flag-icon-vg.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/vg-fb055cf6.svg)
+    background-image: url(https://app.vocus.ae/build/assets/vg-fb055cf6.svg)
 }
 
 .flag-icon-vi {
-    background-image: url(https://cuba.test/build/assets/vi-1b956a72.svg)
+    background-image: url(https://app.vocus.ae/build/assets/vi-1b956a72.svg)
 }
 
 .flag-icon-vi.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/vi-1b956a72.svg)
+    background-image: url(https://app.vocus.ae/build/assets/vi-1b956a72.svg)
 }
 
 .flag-icon-vn {
-    background-image: url(https://cuba.test/build/assets/vn-c1b1b0f0.svg)
+    background-image: url(https://app.vocus.ae/build/assets/vn-c1b1b0f0.svg)
 }
 
 .flag-icon-vn.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/vn-c1b1b0f0.svg)
+    background-image: url(https://app.vocus.ae/build/assets/vn-c1b1b0f0.svg)
 }
 
 .flag-icon-vu {
-    background-image: url(https://cuba.test/build/assets/vu-5ae59b56.svg)
+    background-image: url(https://app.vocus.ae/build/assets/vu-5ae59b56.svg)
 }
 
 .flag-icon-vu.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/vu-5ae59b56.svg)
+    background-image: url(https://app.vocus.ae/build/assets/vu-5ae59b56.svg)
 }
 
 .flag-icon-wf {
-    background-image: url(https://cuba.test/build/assets/wf-3155ee02.svg)
+    background-image: url(https://app.vocus.ae/build/assets/wf-3155ee02.svg)
 }
 
 .flag-icon-wf.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/wf-3155ee02.svg)
+    background-image: url(https://app.vocus.ae/build/assets/wf-3155ee02.svg)
 }
 
 .flag-icon-ws {
-    background-image: url(https://cuba.test/build/assets/ws-52063c4a.svg)
+    background-image: url(https://app.vocus.ae/build/assets/ws-52063c4a.svg)
 }
 
 .flag-icon-ws.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/ws-52063c4a.svg)
+    background-image: url(https://app.vocus.ae/build/assets/ws-52063c4a.svg)
 }
 
 .flag-icon-ye {
-    background-image: url(https://cuba.test/build/assets/ye-b345955a.svg)
+    background-image: url(https://app.vocus.ae/build/assets/ye-b345955a.svg)
 }
 
 .flag-icon-ye.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/ye-b345955a.svg)
+    background-image: url(https://app.vocus.ae/build/assets/ye-b345955a.svg)
 }
 
 .flag-icon-yt {
-    background-image: url(https://cuba.test/build/assets/yt-c84e8053.svg)
+    background-image: url(https://app.vocus.ae/build/assets/yt-c84e8053.svg)
 }
 
 .flag-icon-yt.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/yt-c84e8053.svg)
+    background-image: url(https://app.vocus.ae/build/assets/yt-c84e8053.svg)
 }
 
 .flag-icon-za {
-    background-image: url(https://cuba.test/build/assets/za-1fac7adc.svg)
+    background-image: url(https://app.vocus.ae/build/assets/za-1fac7adc.svg)
 }
 
 .flag-icon-za.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/za-1fac7adc.svg)
+    background-image: url(https://app.vocus.ae/build/assets/za-1fac7adc.svg)
 }
 
 .flag-icon-zm {
-    background-image: url(https://cuba.test/build/assets/zm-26e65d69.svg)
+    background-image: url(https://app.vocus.ae/build/assets/zm-26e65d69.svg)
 }
 
 .flag-icon-zm.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/zm-26e65d69.svg)
+    background-image: url(https://app.vocus.ae/build/assets/zm-26e65d69.svg)
 }
 
 .flag-icon-zw {
-    background-image: url(https://cuba.test/build/assets/zw-2ae0466c.svg)
+    background-image: url(https://app.vocus.ae/build/assets/zw-2ae0466c.svg)
 }
 
 .flag-icon-zw.flag-icon-squared {
-    background-image: url(https://cuba.test/build/assets/zw-2ae0466c.svg)
+    background-image: url(https://app.vocus.ae/build/assets/zw-2ae0466c.svg)
 }
 
 [data-simplebar] {
@@ -30478,15 +30478,15 @@ fieldset:disabled .btn {
 }
 
 .slick-loading .slick-list {
-    background: #fff url(https://cuba.test/build/assets/ajax-loader-e7b44c86.gif) center center no-repeat
+    background: #fff url(https://app.vocus.ae/build/assets/ajax-loader-e7b44c86.gif) center center no-repeat
 }
 
 @font-face {
     font-family: slick;
     font-weight: 400;
     font-style: normal;
-    src: url(https://cuba.test/build/assets/slick-06d80cf0.eot);
-    src: url(https://cuba.test/build/assets/slick-06d80cf0.eot?#iefix) format("embedded-opentype"), url(https://cuba.test/build/assets/slick-26726bac.woff) format("woff"), url(https://cuba.test/build/assets/slick-37bc99cf.ttf) format("truetype"), url(https://cuba.test/build/assets/slick-12459f22.svg#slick) format("svg")
+    src: url(https://app.vocus.ae/build/assets/slick-06d80cf0.eot);
+    src: url(https://app.vocus.ae/build/assets/slick-06d80cf0.eot?#iefix) format("embedded-opentype"), url(https://app.vocus.ae/build/assets/slick-26726bac.woff) format("woff"), url(https://app.vocus.ae/build/assets/slick-37bc99cf.ttf) format("truetype"), url(https://app.vocus.ae/build/assets/slick-12459f22.svg#slick) format("svg")
 }
 
 .slick-prev,
@@ -35960,7 +35960,7 @@ body.modal-open .select2-container--open .select2-dropdown {
 
 .social-profile {
     text-align: center;
-    background-image: url(https://cuba.test/build/assets/profile-bg-fa04b142.png);
+    background-image: url(https://app.vocus.ae/build/assets/profile-bg-fa04b142.png);
     background-repeat: no-repeat;
     background-size: cover
 }
@@ -36439,7 +36439,7 @@ td.highlight {
 }
 
 td.details-control {
-    background: url(https://cuba.test/build/assets/details_open-f848d63f.png) no-repeat center center;
+    background: url(https://app.vocus.ae/build/assets/details_open-f848d63f.png) no-repeat center center;
     cursor: pointer
 }
 
@@ -44068,7 +44068,7 @@ p.data-attributes svg {
 }
 
 .comingsoon-bgimg {
-    background: url(https://cuba.test/build/assets/coming-soon-bg-40079f45.jpg);
+    background: url(https://app.vocus.ae/build/assets/coming-soon-bg-40079f45.jpg);
     background-position: bottom;
     background-size: cover
 }
@@ -44465,7 +44465,7 @@ p.data-attributes svg {
 }
 
 .balance-widget {
-    background-image: url(https://cuba.test/build/assets/balance-bg-eb757ef4.png);
+    background-image: url(https://app.vocus.ae/build/assets/balance-bg-eb757ef4.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right
@@ -45191,7 +45191,7 @@ p.data-attributes svg {
 }
 
 .welcome-card {
-    background-image: url(https://cuba.test/build/assets/bg-1d41996e.jpg);
+    background-image: url(https://app.vocus.ae/build/assets/bg-1d41996e.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -45323,15 +45323,19 @@ p.data-attributes svg {
 .course-widget .course-icon.warning {
     background: linear-gradient(297.08deg, #FF9E2A -4.53%, #FFA941 98.25%)
 }
+
 .course-widget .course-icon.success {
     background: linear-gradient(297.08deg, #2aff53 -4.53%, #53ba4a 98.25%)
 }
+
 .course-widget .course-icon.pending {
     background: linear-gradient(297.08deg, #7366ff -4.53%, #4a41ab 98.25%)
 }
+
 .course-widget .course-icon.reject {
     background: linear-gradient(297.08deg, #f54232 -4.53%, #ab4166 98.25%)
 }
+
 /* .course-widget .course-icon.reject {
     background: linear-gradient(297.08deg, #7366ff -4.53%, #4a41ab 98.25%)
 } */
@@ -46468,7 +46472,7 @@ select.crypto-select.primary {
 
 .balance-box {
     text-align: center;
-    background-image: url(https://cuba.test/build/assets/bg-balance-dc949986.png);
+    background-image: url(https://app.vocus.ae/build/assets/bg-balance-dc949986.png);
     background-position: right;
     background-size: cover
 }
@@ -47276,7 +47280,7 @@ select.crypto-select.primary {
 }
 
 .widget-1 {
-    background-image: url(https://cuba.test/build/assets/widget-bg-fcce1c75.png);
+    background-image: url(https://app.vocus.ae/build/assets/widget-bg-fcce1c75.png);
     background-size: cover;
     margin-bottom: 25px
 }
@@ -50087,7 +50091,7 @@ footer.blockquote-footer {
 }
 
 .error-wrapper.maintenance-bg {
-    background-image: url(https://cuba.test/build/assets/maintenance-bg-a367feed.jpg);
+    background-image: url(https://app.vocus.ae/build/assets/maintenance-bg-a367feed.jpg);
     background-color: #fff9;
     background-blend-mode: overlay
 }
@@ -55353,7 +55357,7 @@ ul.dot-group li {
     align-items: center;
     justify-content: center;
     margin: 0 auto;
-    background: url(https://cuba.test/build/assets/login_bg-4e2ac6b8.jpg);
+    background: url(https://app.vocus.ae/build/assets/login_bg-4e2ac6b8.jpg);
     background-position: center;
     padding: 30px 12px
 }
@@ -56194,7 +56198,7 @@ ul.dot-group li {
 }
 
 .user-profile .hovercard .socialheader {
-    background: url(https://cuba.test/build/assets/social-image-d177aeb1.png)
+    background: url(https://app.vocus.ae/build/assets/social-image-d177aeb1.png)
 }
 
 .user-profile .hovercard .user-image .share-icons {
@@ -57368,7 +57372,7 @@ ul.dot-group li {
 }
 
 .user-profile .hovercard .cardheader {
-    background: url(https://cuba.test/build/assets/bg-profile-a7071c0d.png);
+    background: url(https://app.vocus.ae/build/assets/bg-profile-a7071c0d.png);
     background-size: cover;
     background-position: 10%;
     height: 470px
@@ -60915,7 +60919,7 @@ ul.dot-group li {
 }
 
 .page-wrapper.material-type .page-body-wrapper {
-    background-image: url(https://cuba.test/build/assets/boxbg-4d2e6f65.jpg);
+    background-image: url(https://app.vocus.ae/build/assets/boxbg-4d2e6f65.jpg);
     background-blend-mode: overlay;
     background-color: #ffffff80
 }
@@ -64836,7 +64840,7 @@ html[dir=rtl] body.dark-only .page-wrapper .page-body-wrapper .page-body .card:n
 }
 
 .box-layout {
-    background-image: url(https://cuba.test/build/assets/boxbg-4d2e6f65.jpg);
+    background-image: url(https://app.vocus.ae/build/assets/boxbg-4d2e6f65.jpg);
     background-blend-mode: overlay;
     background-color: #ffffff80
 }

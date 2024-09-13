@@ -5057,15 +5057,15 @@ class FunctionController extends Controller
         // return $request;
 
          $data2 = \App\Models\WhatsAppMnpBank::select('whats_app_mnp_banks_1.number', 'whats_app_mnp_banks_1.cname')
-        ->Join(
-            'main_data_user_assigners_1',
-            'main_data_user_assigners_1.number_id',
-            'whats_app_mnp_banks_1.id'
-        )
+        // ->Join(
+        //     'main_data_user_assigners_1',
+        //     'main_data_user_assigners_1.number_id',
+        //     'whats_app_mnp_banks_1.id'
+        // )
             // ->where
-            ->where('main_data_user_assigners_1.user_id', auth()->user()->id)
-            ->where('is_status', '1')
-            ->where('pcat', 'normal')
+            // ->where('main_data_user_assigners_1.user_id', auth()->user()->id)
+            // ->where('is_status', '1')
+            // ->where('pcat', 'normal')
             ->where('whats_app_mnp_banks_1.number_id',$request->id)
             ->first();
             $num = $data2->number;
@@ -5398,7 +5398,7 @@ class FunctionController extends Controller
     public function PlanChange(Request $request){
         // return $request;
         if($request->subcase == 'HomeWifi'){
-            return $planwifi = \App\Models\HomeWifiPlan::select('id', 'name as plan_name')->where('status', '1')->whereIn('id', ['1', '2', '3','4'])->get();
+            return $planwifi = \App\Models\HomeWifiPlan::select('id', 'name as plan_name')->where('status', '1')->whereIn('id', ['1', '2', '3','4','8'])->get();
 
         }
         else if($request->subcase == 'FNE'){

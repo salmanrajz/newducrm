@@ -82,8 +82,8 @@ class VerificationController extends Controller
             'emirate' => 'required',
             // 'remarks' => 'required',
             'plans' => 'required',
-            'refference_id' => 'required',
-            'work_order_num' => 'required',
+            'refference_id' => 'required_if:sim_type,==,HomeWifi',
+            'work_order_num' => 'required_if:sim_type,==,HomeWifi',
             'audio' => 'required',
             'emirate_expiry' => 'required|date|after:tomorrow',
             'dob' => ['before:20 years ago']

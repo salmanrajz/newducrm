@@ -96,6 +96,48 @@ class AdminController extends Controller
         // ]);
     }
     //
+    // Form Layouts
+    public function AddSecretCodeForm()
+    {
+        //
+        $role = Role::all();
+        $breadcrumbs = [
+            ['link' => "/", 'name' => "Home"], ['link' => "javascript:void(0)", 'name' => "Users Role"]
+        ];
+        return view('admin.role.generate-code',compact('breadcrumbs','role'));
+        // return view('/content/forms/form-layout', [
+        //     'breadcrumbs' => $breadcrumbs
+        // ]);
+    }
+    //
+    public function GenerateCode(Request $request){
+        // return $request;
+        $validatedData = Validator::make($request->all(), [
+            'cnumber' => 'required|string|unique:whats_app_mnp_banks_1,number',
+        ]);
+        if ($validatedData->fails()) {
+            return response()->json(['error' => $validatedData->errors()->all()]);
+        }
+        if(isset($request->old_code)){
+            $code = $request->old_code;
+        }
+        else{
+            $code = date('Y') . date('m') . date('d').'77'. substr(time(), 6, 10);
+        }
+        WhatsAppMnpBank::create([
+            'number_id' => $code,
+            'number' => $request->cnumber,
+            'data_valid_from' => 'FromCRMViciDialManual',
+            'status' => '0',
+            'soft_dnd' => $request->cnumber,
+        ]);
+        return response()->json(['error' => ['Documents' => ['New Generated Shortcode is => ' . $code]]], 200);
+
+        // Role::create(['name' => $request->name]);
+        // return response()->json(['error' => 'Added new records, please wait meanwhile we are redirecting you....!!!' . $code]);
+    }
+    //
+    //
     public function roleadd(Request $request){
         // return $request;
         $validatedData = Validator::make($request->all(), [
@@ -603,7 +645,7 @@ class AdminController extends Controller
             // return 1;
             // notify()->info('User has been succesfully deleted');
         }
-        return redirect(route('users'));
+        return redirect(route('view-users'));
 
     }
     //
@@ -785,6 +827,12 @@ class AdminController extends Controller
         return view('admin.role.checksecretcode');
     }
     //
+    //
+    public function NumberToCode(Request $request){
+        // return "Zone";
+        return view('admin.role.numbertocode');
+    }
+    //
     public function checkleadnumber(Request $request){
         // return "Zone";
         return view('admin.role.searchlead');
@@ -799,25 +847,22 @@ class AdminController extends Controller
              $data = WhatsAppMnpBank::select('whats_app_mnp_banks_1.number_id as number')
             ->where('number_id', 'LIKE', "%$search%")
             ->get();
-            // $data = numberdetail::select('numberdetails.*')
-            // ->wherein('channel_type', ['TTF', 'ExpressDial', 'MWH', 'Ideacorp'])
-            // ->first();
-            // if ($data->region != 'Pak') {
-            //     $data = numberdetail::select(DB::raw("CONCAT(number,' ', status, ' ', call_center,' ',passcode,' ',type,' ',channel_type ) as number"))
-            //     ->where('number', 'LIKE', "%$search%")
-            //     ->wherein('channel_type', ['TTF', 'ExpressDial', 'MWH', 'Ideacorp'])
-            //     ->get();
-            // } else {
-            //     $data = numberdetail::select(DB::raw("CONCAT(number,' ', status, ' ', call_center,' ',passcode,' ',type,' :Region => ',region,' ',channel_type ) as number"))
-            //     ->where('number', 'LIKE', "%$search%")
-            //     ->wherein('channel_type', ['TTF', 'ExpressDial', 'MWH', 'Ideacorp'])
-            //     ->get();
-            // }
-            // if($data->count() > 0){}
-            // $data = numberdetail::select(DB::raw("CONCAT(number,' ', status, ' ', call_center,' ',passcode,' ',type ) as number"))
-            //     ->where('number', 'LIKE', "%$search%")
-            //     ->wherein('channel_type', ['TTF','ExpressDial','MWH','Ideacorp'])
-            //     ->get();
+
+        }
+        return response()->json($data);
+    }
+    //
+    //
+    public function searchcode(Request $request){
+        // return "zoom";
+        $data = [];
+        if ($request->has('q')) {
+            $search = $request->q;
+            // $data = whatsapp
+             $data = WhatsAppMnpBank::select('whats_app_mnp_banks_1.number as number')
+            ->where('number', 'LIKE', "%$search%")
+            ->get();
+
         }
         return response()->json($data);
     }
@@ -836,28 +881,7 @@ class AdminController extends Controller
                 'lead_sales.status'
             )
             ->where('lead_no', 'LIKE', "%$search%")->get();
-            //  $data = lead_sales::select('whats_app_mnp_banks_1.number_id as number')
-            // ->where('number_id', 'LIKE', "%$search%")
-            // ->get();
-            // $data = numberdetail::select('numberdetails.*')
-            // ->wherein('channel_type', ['TTF', 'ExpressDial', 'MWH', 'Ideacorp'])
-            // ->first();
-            // if ($data->region != 'Pak') {
-            //     $data = numberdetail::select(DB::raw("CONCAT(number,' ', status, ' ', call_center,' ',passcode,' ',type,' ',channel_type ) as number"))
-            //     ->where('number', 'LIKE', "%$search%")
-            //     ->wherein('channel_type', ['TTF', 'ExpressDial', 'MWH', 'Ideacorp'])
-            //     ->get();
-            // } else {
-            //     $data = numberdetail::select(DB::raw("CONCAT(number,' ', status, ' ', call_center,' ',passcode,' ',type,' :Region => ',region,' ',channel_type ) as number"))
-            //     ->where('number', 'LIKE', "%$search%")
-            //     ->wherein('channel_type', ['TTF', 'ExpressDial', 'MWH', 'Ideacorp'])
-            //     ->get();
-            // }
-            // if($data->count() > 0){}
-            // $data = numberdetail::select(DB::raw("CONCAT(number,' ', status, ' ', call_center,' ',passcode,' ',type ) as number"))
-            //     ->where('number', 'LIKE', "%$search%")
-            //     ->wherein('channel_type', ['TTF','ExpressDial','MWH','Ideacorp'])
-            //     ->get();
+
         }
         return response()->json($data);
     }
@@ -867,6 +891,17 @@ class AdminController extends Controller
         // return "IM MAGIC";
         $data = WhatsAppMnpBank::select('whats_app_mnp_banks_1.*')
         ->where('number_id',$request->number)
+        ->first();
+        return view('load_data.secret-data-load',compact('data'));
+
+    }
+    //
+    //
+    public function searchcodeoriginal(Request $request){
+        // return $request;
+        // return "IM MAGIC";
+        $data = WhatsAppMnpBank::select('whats_app_mnp_banks_1.*')
+        ->where('number',$request->number)
         ->first();
         return view('load_data.secret-data-load',compact('data'));
 

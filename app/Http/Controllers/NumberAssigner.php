@@ -1349,8 +1349,10 @@ class NumberAssigner extends Controller
 
                 //
             if (!empty($request->user)) {
-                $zk = main_data_manager_assigner::where('number_id',$k)->first();
+                // return "ye";
+                 $zk = main_data_manager_assigner::where('number_id',$k)->first();
                 if(!$zk){
+                    // return "ZK";
                     $ks = main_data_manager_assigner::create([
                         'number_id' => $k,
                         'manager_id' => $request->user,
@@ -1360,6 +1362,7 @@ class NumberAssigner extends Controller
                     $kk = WhatsAppMnpBank::where('id', $k)->first();
                     $kk->is_status = '1';
                     $kk->save();
+                    // return "Kamiyabi";
                 }
             }
             // echo $k . '<br>';

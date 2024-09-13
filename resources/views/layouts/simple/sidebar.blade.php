@@ -64,7 +64,9 @@
                             {{-- <li><a class="" href="{{ route('call.center') }}">Add CC</a></li> --}}
                             <li><a class="" href="{{ route('call.center') }}">View CC</a></li>
                             <li><a class="" href="{{ route('checksecretcode') }}">Secret Code</a></li>
+                            <li><a class="" href="{{ route('NumberToCode') }}">Number to Code</a></li>
                             <li><a class="" href="{{ route('checkleadnumber') }}">Search Lead</a></li>
+                            <li><a class="" href="{{ route('AddSecretCodeForm') }}">Add Secret Code</a></li>
                         </ul>
                     </li>
 

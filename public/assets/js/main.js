@@ -1445,6 +1445,30 @@ window.UnMaskNumber = function (MaskUrl,id,eye) {
      }
  });
 //
+//
+ $('#numbertocode').select2({
+     placeholder: 'Please Search Number',
+     // dropdownParent: $('#AddSkill'),
+     // tags: true,
+     minimumInputLength: 2,
+     ajax: {
+         url: '/admin/search-code?id=' + $("#numbertocode").val(),
+         dataType: 'json',
+         delay: 250,
+         processResults: function (data) {
+             return {
+                 results: $.map(data, function (item) {
+                     return {
+                         text: item.number,
+                         id: item.number
+                     }
+                     // alert(item.number);
+                 })
+             };
+         }
+     }
+ });
+//
  $('#searchlead').select2({
      placeholder: 'Please Search Lead # CT',
      // dropdownParent: $('#AddSkill'),
@@ -1523,6 +1547,13 @@ window.UnMaskNumber = function (MaskUrl,id,eye) {
      // console.log($(this).val());
  });
  $("#searchlead").on("change", function () {
+     // console.log($(this).val());
+     // console.log()
+     // console.log()
+     search_number_id($(this).val());
+     // console.log($(this).val());
+ });
+ $("#numbertocode").on("change", function () {
      // console.log($(this).val());
      // console.log()
      // console.log()
